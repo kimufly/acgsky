@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="acgsky.NewsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:acgsky"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    RequestedTheme="Dark" Background="#FFFF6C00" >
+    <Page.BottomAppBar>
+        <CommandBar Background="#FFFF6C00"  x:Name="CB" >
+
+            <AppBarButton x:Name="上一页" Label="上一页" IsEnabled="False" Click="上一页_Click" Icon="Back"/>
+            <AppBarButton x:Name="刷新" Label="刷新" Click="刷新_Click" Icon="Refresh"/>
+            <AppBarButton x:Name="评论" Label="评论" Click="评论_Click" Icon="Message"/>
+            <AppBarButton x:Name="下一页" Label="下一页" IsEnabled="False" Click="下一页_Click" Icon="Forward" />
+
+            <AppBarButton x:Name="返回" Label="返回"  Icon="Back" Click="返回_Click" Visibility="Collapsed"/>
+            <AppBarButton x:Name="复位" Label="复位" Icon="Refresh" Click="复位_Click" Visibility="Collapsed"/>
+            <AppBarButton x:Name="保存" Label="保存"  Icon="SaveLocal" Click="保存_Click" Visibility="Collapsed"/>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="Camera"  Label="载入中" />
+                <AppBarButton x:Name="Camera2"  Label="收藏该页" Click="Camera2_Click" IsEnabled="False"  />
+                <AppBarButton x:Name="Camera3"  Label="取消收藏"  Click="Camera3_Click"  />
+                <AppBarButton x:Name="Camera4"  Label="查看链接"  Click="Camera4_Click"  />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+
+    </Page.BottomAppBar>
+    <Page.Transitions>
+        <TransitionCollection>
+            <EdgeUIThemeTransition/>
+        </TransitionCollection>
+    </Page.Transitions>
+    <Page.Resources>
+        <Storyboard x:Name="WOF">
+            <DoubleAnimation 
+                Storyboard.TargetName="we"
+                Storyboard.TargetProperty="Opacity"
+                From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Name="WOF2">
+            <DoubleAnimation 
+                Storyboard.TargetName="we"
+                Storyboard.TargetProperty="Opacity"
+                From="1" To="0" Duration="0:0:0.5" />
+        </Storyboard>
+
+        <Storyboard x:Name="DM0">
+            <DoubleAnimation 
+                Storyboard.TargetName="TPG"
+                Storyboard.TargetProperty="Opacity"
+                From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Name="DM1">
+            <DoubleAnimation 
+                Storyboard.TargetName="TPG"
+                Storyboard.TargetProperty="Opacity"
+                From="1" To="0" Duration="0:0:0.5" />
+        </Storyboard>
+    </Page.Resources>
+
+    <Grid x:Name="NPG"  Margin="0,0,0,0" Background="White"  >
+        <!--进度圈-->
+        <ProgressRing x:Name="prr" Foreground="#FFFF6D00"  VerticalAlignment="Center" IsActive="True" Background="{x:Null}" />
+        <!--主要内容显示的控件-->
+        <WebView x:Name="we"   NavigationStarting="we_NavigationStarting"  Opacity="0"  DOMContentLoaded="we_DOMContentLoaded"  IsHitTestVisible="True" />
+        <!--加载失败的提示信息，默认不现实-->
+        <TextBlock x:Name="tb2122"  Visibility="Collapsed" Text="载入失败，请返回重试或者刷新。如果一直载入失败，请联系作者，并耐心等待更新，希望不要为此给予差评，此app会因网站一定幅度更新导致BUG的发生" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" Foreground="#FF020202" FontFamily="Segoe WP" TextWrapping="Wrap"/>
+
+       
+
+        <!--图片-->
+        <Grid x:Name="TPG" Background="#CCFFFFFF" Opacity="0"  >
+            <ProgressRing x:Name="PB" IsActive="True" Background="{x:Null}" Foreground="#FFFF6C00"/>
+            <TextBlock x:Name="TPT" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"  Visibility="Collapsed" TextWrapping="Wrap" Foreground="#FF1F1F1F"/>
+            <Image x:Name="TPS" ManipulationMode="All" RenderTransformOrigin="0.5,0.5" ManipulationDelta="TPS_ManipulationDelta" ManipulationCompleted="TPS_ManipulationCompleted" >
+                <Image.RenderTransform>
+                    <CompositeTransform x:Name="CT" ScaleX="1" ScaleY="1" TranslateX="1" TranslateY="1"/>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <!--评论-->
+        <WebView x:Name="plwe" NavigationStarting="plwe_NavigationStarting" Visibility="Collapsed" DefaultBackgroundColor="#FFFFFFFF"  />
+        <!--链接-->
+        <StackPanel x:Name="lj" Background="#E5FFFFFF" Visibility="Collapsed">
+            <TextBlock Text="因windowsphone8.1不完善，无法让程序来复制到粘贴板，请手动复制" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" Margin="0,200,0,0" TextWrapping="Wrap"/>
+            <TextBlock Text="链接：" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18"/>
+            <TextBox x:Name="ljtb"  VerticalAlignment="Center" Background="White" BorderBrush="#FFFF7400"  IsReadOnly="True" Height="146" TextWrapping="Wrap"/>
+            <Button Style="{StaticResource B2}" Content="关闭" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Button_Click" />
+        </StackPanel>
+        <!--<ScrollViewer>
+            <TextBlock x:Name="Tbb" FontFamily="Segoe WP" TextWrapping="Wrap" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
+        </ScrollViewer>-->
+    </Grid>
+</Page>

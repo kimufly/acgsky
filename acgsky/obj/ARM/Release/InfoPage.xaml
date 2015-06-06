@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="acgsky.InfoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:acgsky"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Background="#FFFF6C00" RequestedTheme="Dark"
+>
+    <Page.Transitions>
+        <TransitionCollection>
+
+            <!-- This transition just uses the default behavior which is to
+                 have the button animate into view from the right. You can
+                 make it start from anywhere on the right by using the
+                 FromHorizontalOffset property. If you'd rather see a vertical
+                 animation, use the FromVerticalOffset property. -->
+            <!--<EntranceThemeTransition IsStaggeringEnabled="True" FromHorizontalOffset="200" />-->
+            <!--<EdgeUIThemeTransition/>-->
+
+            <!--<ContentThemeTransition/>-->
+            <!--<AddDeleteThemeTransition/>-->
+            <!--<PopupThemeTransition/>-->
+            <PaneThemeTransition/>
+        </TransitionCollection>
+    </Page.Transitions>
+    <Grid Background="White">
+        <Image Source="Assets/SplashScreen.png" Margin="0,0,0,10" />
+        <Grid Background="White" Margin="0,0,0,100" />
+        <Image Source="Assets/logo.gif" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="48,0,0,0" Stretch="None" />
+
+        <TextBlock VerticalAlignment="Center" Margin="0,60,0,0" TextWrapping="Wrap" Text="动漫星空是以动漫资讯、动漫壁纸、动漫音乐、动漫周边产品等内容为主打的综合动漫门户。本APP为第三方，作者在业余时间因兴趣而开发，希望大家能多多支持。"  Foreground="#FFFF6C00" FontSize="16" />
+        <Grid x:Name="YJMS" Background="#B2000000" IsHitTestVisible="False" Visibility="Collapsed"  />
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="#FFFF6C00"  >
+            <AppBarButton x:ConnectionId='1' x:Name="评价" Label="评论打分" Icon="Message"                 />
+            <AppBarButton x:ConnectionId='2' x:Name="联系" Label="联系作者" Icon="Mail"                 />
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+

@@ -1,0 +1,42 @@
+/* 评论调用 */
+/*发表评论*/
+#SOHUCS .cbox-post-b {border: 2px solid #ffdece;}
+#SOHUCS .cbox-post-b .post-action-b {border-top: 1px solid #ffdece;}
+#SOHUCS .cbox-post-b .post-action-b a.btn-mutual-b {margin:6px 6px 0; width:70px; height:30px; border-radius:3px;}
+#SOHUCS .cbox-post-b .post-action-b a.btn-mutual-b .mutual-btn-b {width:70px; height:30px; border-radius:3px;}
+#SOHUCS .cbox-post-b .post-action-b a.btn-mutual-b .mutual-btn-b {background-image:url("http://image.gamersky.com/webimg13/wap/btn_link.gif"); background-position:0 0; background-size:70px 30px;}
+#SOHUCS .cbox-post-b .post-action-b a.btn-mutual-b:hover .mutual-btn-b {background-image:url("http://image.gamersky.com/webimg13/wap/btn_hover.gif");}
+
+/*内容列表*/
+#SOHUCS #cy-comment-list-wrapper {margin:0;padding:0;}
+#SOHUCS .kinds-title-b {margin:20px 0 0 0; padding:0; height:40px; line-height:40px; text-indent:10px; color:#fff; background-color:#fd7f41; border:0;}
+#SOHUCS .msg-time-wap {line-height:14px; font-weight:normal; font-family:"Segoe WP";}
+
+/*用户名*/
+#SOHUCS .wrap-msg-wap {padding-left:10px;}
+#SOHUCS .wrap-msg-wap .msg-name-b {color:#666;}
+#SOHUCS .cont-title-wap .title-name-b {color:#666;}
+
+#SOHUCS .header-praise-wap .praise-number-b {color:#aaa;} /*称赞数字*/
+#SOHUCS .header-praise-e .praise-number-b {color:#fd7f41;} /*称赞数字*/
+#SOHUCS .header-praise-wap .praise-icon-b {background-image:url("http://image.gamersky.com/webimg13/wap/gooda.gif"); background-size:19px 18px;} /*称赞图标*/
+#SOHUCS .header-praise-e .praise-icon-b {background-image:url("http://image.gamersky.com/webimg13/wap/goodb.gif"); background-size:19px 18px;} /*称赞图标*/
+
+/*回复内容边线*/
+#SOHUCS .cy_show_floor {border:0;}
+#SOHUCS .wrap-build-b {border:0;}
+#SOHUCS .wrap-build-b .build-inner-wap {border:0; background-color:#f7f7f7; border-bottom:1px dotted #b9b9b9;}
+#SOHUCS .wrap-build-middle-b {border:0; border-bottom:1px dotted #b9b9b9;}
+#SOHUCS .wrap-build-middle-b .middle-inner-b {border:0;}
+#SOHUCS .reset-g a {color:#fd7f41;}
+
+/*楼层*/
+#SOHUCS .floor-num-wap {height:20px; line-height:20px;}
+
+/*显示下10条*/
+#SOHUCS .count-mutual-b {background-color:#f7f7f7;}
+#SOHUCS .count-mutual-b .mutual-text-wap {background:url("../img/More.gif") 0 10px no-repeat; background-size:14px 21px;}
+#SOHUCS .count-mutual-b .mutual-text-wap {display:inline-block; width:120px; height:40px; line-height:40px; text-indent:20px; color:#aeaeae;}
+
+/*楼层*/
+#cy-comment-list-wrapper .kinds-comment-wap {padding:10px;}

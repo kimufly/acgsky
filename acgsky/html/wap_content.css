@@ -1,0 +1,582 @@
+.Mid_1 {
+	margin: 0px 10px; padding: 10px 0px; width: auto; height: auto; font-family: "Segoe WP"; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.Mid_1 .Mid1_1 {
+	width: auto; height: auto; color: rgb(35, 35, 35); line-height: 24px; font-size: 20px; font-weight: bold; display: block;
+}
+.Mid_1 .Mid1_2 {
+	width: auto; height: 20px; color: rgb(136, 136, 136); line-height: 20px; padding-top: 10px; font-size: 12px; display: block;
+}
+.Mid_1 .Mid1_2 .pl {
+	background: url("http://image.gamersky.com/webimg13/wap/pl.gif") no-repeat 5px 4px / 15px 12px rgb(253, 127, 65); padding: 0px 5px 0px 24px; border-radius: 4px; width: auto; height: 20px; color: rgb(255, 255, 255); float: right; display: inline-block;
+}
+.Mid_2 {
+	margin: 0px 10px; padding: 5px 0px; width: auto; height: auto; color: rgb(0, 0, 0); line-height: 24px; font-family: "Segoe WP"; font-size: 17px; display: block;
+}
+.Mid_2 p {
+	margin: 0px auto; padding: 5px 0px;
+}
+.Page {
+	margin: 0px 10px; width: auto; height: auto; display: block;
+}
+.Page .Page-1 {
+	width: auto; height: 30px; float: left;
+}
+.Page .Page-1 select {
+	padding: 0px 5px; border: 1px solid rgb(206, 206, 206); border-image: none; width: auto; height: 24px; color: rgb(136, 136, 136); font-size: 14px;
+}
+.Page .Page-2 {
+	width: auto; height: 30px; float: right;
+}
+.Page .Page-2 .page-prev {
+	padding: 0px 5px; border: 1px solid rgb(206, 206, 206); border-image: none; width: auto; height: 22px; text-align: center; color: rgb(136, 136, 136); line-height: 22px; float: left; display: inline-block;
+}
+.Page .Page-2 .page-next {
+	padding: 0px 5px; border: 1px solid rgb(206, 206, 206); border-image: none; width: auto; height: 22px; text-align: center; color: rgb(136, 136, 136); line-height: 22px; float: left; display: inline-block;
+}
+.Page .Page-2 .page-num {
+	margin: 0px 10px; padding: 0px 5px; border: 1px solid rgb(206, 206, 206); border-image: none; width: auto; height: 22px; text-align: center; color: rgb(136, 136, 136); line-height: 22px; float: left; display: inline-block;
+}
+.Mid_3 {
+	margin: 0px 10px 15px; width: auto; height: auto; display: block;
+}
+.Mid_3 a.download {
+	background: rgb(245, 71, 58); border-radius: 4px; width: auto; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-size: 18px; display: block;
+}
+.Mid_4 {
+	width: auto; height: auto; padding-bottom: 10px; display: block;
+}
+.Mid_4 .Mid4_0 {
+	background: rgb(246, 246, 246); padding: 10px 10px 0px; width: auto; height: 28px; border-top-color: rgb(217, 217, 217); border-bottom-color: rgb(253, 127, 65); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.Mid_4 .Mid4_0 .Mid40_1 {
+	background: rgb(253, 127, 65); padding: 0px 15px; border-radius: 4px 4px 0px 0px; width: auto; height: 28px; color: rgb(255, 255, 255); line-height: 28px;
+}
+.Mid_4 .Mid4_0 .Mid40_2 {
+	height: 28px; text-align: right; -webkit-box-flex: 1;
+}
+.Mid_4 .Mid4_0 .Mid40_2 a {
+	width: 32px; height: 28px; color: rgb(102, 102, 102); line-height: 28px; font-size: 14px; display: inline-block;
+}
+.Mid_4 .Mid4_1 {
+	width: auto; height: auto; margin-bottom: 10px;
+}
+.SY1 {
+	background: rgb(246, 246, 246); padding: 10px; width: 100%; height: auto;
+}
+.SY1 .SY1_1 {
+	width: 80px; height: 70px;
+}
+.SY1 .SY1_1 img {
+	border-radius: 12px;
+}
+.SY1 .SY1_2 {
+	width: auto; height: auto; -webkit-box-flex: 1;
+}
+.SY1 .SY1_2 .tit {
+	padding: 2px 0px; width: auto; height: auto; line-height: 18px;
+}
+.SY1 .SY1_2 .txt {
+	width: auto; height: 16px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px;
+}
+.SY1 .SY1_2 .txt a {
+	padding: 0px 5px; border-radius: 4px; border: 1px solid rgb(245, 71, 58); border-image: none; width: auto; height: 14px; color: rgb(245, 71, 58); line-height: 14px; font-size: 12px; margin-right: 5px; display: inline-block;
+}
+.SY2 {
+	background: rgb(231, 232, 233); padding: 10px; width: auto; height: auto; display: block;
+}
+.SY2 .SY21 {
+	background: rgb(255, 255, 255); padding: 10px; width: auto; height: 80px; margin-bottom: 10px; display: block;
+}
+.SY2 .SY21 ul.list {
+	width: auto; height: 80px; float: left;
+}
+.SY2 .SY21 ul.list li.tit {
+	background: url("http://image.gamersky.com/webimg13/wap/sy.png") no-repeat 0% 0% / 18px auto; width: auto; height: 26px; line-height: 26px; text-indent: 23px;
+}
+.SY2 .SY21 ul.list li.tit em {
+	color: rgb(204, 204, 204);
+}
+.SY2 .SY21 ul.list li.Android {
+	background-position: 0px 0px; color: rgb(16, 199, 93);
+}
+.SY2 .SY21 ul.list li.ios {
+	background-position: 0px -34px; color: rgb(63, 165, 238);
+}
+.SY2 .SY21 ul.list li.txt {
+	width: auto; height: 18px; color: rgb(102, 102, 102); line-height: 18px; font-size: 12px;
+}
+.SY2 .SY21 ul.list li.txt span {
+	color: rgb(37, 37, 37);
+}
+.SY2 .SY21 ul.down {
+	width: 105px; height: auto; padding-top: 18px; float: right;
+}
+.SY2 .SY21 ul.down li.dow {
+	width: auto; height: 32px; display: block;
+}
+.SY2 .SY21 ul.down li.dow a {
+	border-radius: 4px; width: 105px; height: 32px; color: rgb(255, 255, 255); line-height: 32px; text-indent: 40px; font-size: 14px; display: inline-block;
+}
+.SY2 .SY21 ul.down li.dow a {
+	background: url("http://image.gamersky.com/webimg13/wap/down.png") no-repeat 0% 0% / 25px auto;
+}
+.SY2 .SY21 ul.down li.dow a.Android {
+	background-position: 8px 4px; background-color: rgb(16, 199, 93);
+}
+.SY2 .SY21 ul.down li.dow a.ios {
+	background-position: 8px -41px; background-color: rgb(63, 165, 238);
+}
+.SY2 .SY21 ul.down li.txt {
+	width: auto; height: 20px; text-align: center; line-height: 20px; font-size: 12px; display: block;
+}
+.SY2 .SY21 ul.down li.txt span.Android {
+	color: rgb(16, 199, 93);
+}
+.SY2 .SY21 ul.down li.txt span.ios {
+	color: rgb(63, 165, 238);
+}
+.SY2 .SY22 {
+	width: 100%; height: 60px;
+}
+.SY2 .SY22 ul.ul_l {
+	background: rgb(255, 255, 255); width: auto; height: auto; padding-top: 5px; margin-right: 10px; -webkit-box-flex: 1;
+}
+.SY2 .SY22 ul.ul_l li {
+	width: auto; height: 30px; text-align: center; line-height: 30px; font-size: 14px; display: block;
+}
+.SY2 .SY22 ul.ul_l li span {
+	display: inline-block;
+}
+.SY2 .SY22 ul.ul_l li span.txt {
+	background: url("http://image.gamersky.com/webimg13/wap/ws.png") no-repeat 0px 3px / 21px auto; color: rgb(85, 85, 85); padding-left: 22px;
+}
+.SY2 .SY22 ul.ul_l li span.num {
+	color: rgb(245, 71, 58); font-weight: bold;
+}
+.SY2 .SY22 ul.ul_l li span.pf {
+	background: url("http://image.gamersky.com/webimg13/wap/pf2.png") no-repeat 0% 0% / 80px auto; width: 80px; height: 11px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em {
+	background: url("http://image.gamersky.com/webimg13/wap/pf2.png") no-repeat 0px -12px / 80px auto; height: 11px; float: left; display: inline-block;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p10 {
+	width: 80px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p9 {
+	width: 72px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p8 {
+	width: 64px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p7 {
+	width: 56px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p6 {
+	width: 48px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p5 {
+	width: 40px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p4 {
+	width: 32px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p3 {
+	width: 24px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p2 {
+	width: 16px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p1 {
+	width: 8px;
+}
+.SY2 .SY22 ul.ul_l li span.pf em.p0 {
+	width: 0px;
+}
+.SY2 .SY22 ul.ul_r {
+	background: rgb(255, 255, 255); width: auto; height: 70px; padding-top: 5px; -webkit-box-flex: 1;
+}
+.SY2 .SY22 ul.ul_r li {
+	width: auto; height: 27px; text-align: center; line-height: 27px; font-size: 14px; display: block;
+}
+.SY2 .SY22 ul.ul_r li span.txt {
+	background: url("http://image.gamersky.com/webimg13/wap/zs.png") no-repeat 0px 5px / 16px auto; color: rgb(85, 85, 85); padding-left: 20px; display: inline-block;
+}
+.SY2 .SY22 ul.ul_r li span.num {
+	color: rgb(255, 100, 25); font-weight: bold;
+}
+.SY2 .SY22 ul.ul_r li a {
+	border-radius: 9px; border: 1px solid rgb(255, 100, 25); border-image: none; width: 40px; height: 18px; text-align: center; color: rgb(255, 100, 25); line-height: 18px; font-size: 10px; display: inline-block;
+}
+.SY2 .SY22 ul.ul_r li a {
+	background: url("http://image.gamersky.com/webimg13/wap/but.png") no-repeat 0% 0% / 14px auto; padding-left: 15px;
+}
+.SY2 .SY22 ul.ul_r li a.OKnum {
+	background-position: 3px 2px; margin-right: 8px;
+}
+.SY2 .SY22 ul.ul_r li a.NOnum {
+	background-position: 3px -19px;
+}
+.YXJT {
+	margin: 10px 10px 0px; width: auto; height: auto;
+}
+.horizontal p img {
+	width: 600px;
+}
+.horizontal ul li {
+	padding-right: 5px; float: left;
+}
+.vertical img {
+	width: 300px;
+}
+.horizon img {
+	width: 135px;
+}
+.slider-wrap {
+	width: 100%; overflow: hidden;
+}
+.slide-nav {
+	width: 100%; text-align: center; bottom: 8px; font-size: 0px; position: absolute; z-index: 10;
+}
+.slide-nav span {
+	margin: 0px 4px; border-radius: 4px; width: 8px; height: 8px; display: inline-block; background-color: rgb(195, 195, 195);
+}
+.slide-nav .curr {
+	background-color: rgb(255, 110, 0);
+}
+.pic-mask {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 2040;
+}
+.pic-wrap {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; -moz-box-orient: vertical; -webkit-box-orient: vertical; -moz-box-pack: center; -webkit-box-pack: center; -moz-box-align: center; -webkit-box-align: center;
+}
+.pic-main li {
+	text-align: center; float: left;
+}
+.pic-main li img {
+	display: inline-block;
+}
+#shotCont {
+	width: 100%; overflow: hidden; position: relative; z-index: 199;
+}
+#scroller {
+	position: absolute; z-index: 1; transform: translateZ(0px);
+}
+.shot-ul {
+	width: 4000px;
+}
+ul.pic {
+	padding: 10px; width: auto; height: auto;
+}
+ul.pic li {
+	width: 24%; height: auto; text-align: center; -webkit-box-flex: 1;
+}
+ul.pic li a {
+	width: auto; height: 70px; color: rgb(50, 57, 61); line-height: 20px; overflow: hidden; font-size: 12px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+ul.pic li a img {
+	border-radius: 8px;
+}
+ul.text {
+	width: auto; height: auto; display: block;
+}
+ul.text li {
+	width: auto; height: 40px; border-bottom-color: rgb(230, 230, 230); border-bottom-width: 2px; border-bottom-style: solid; display: block;
+}
+ul.text li a {
+	width: auto; height: 40px; color: rgb(50, 57, 61); line-height: 40px; overflow: hidden; font-size: 14px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.review_Table1 {
+	background: rgb(40, 42, 45); border: 0px currentColor; border-image: none; width: 100%; height: 194px; border-collapse: collapse;
+}
+.review_Table1 .review_td1 {
+	background: url("http://img.gamersky.com/webimg08/review_bg.gif"); width: 100%; height: 25px; overflow: hidden;
+}
+.review_Table1 .review_td2 {
+	width: 20%; text-align: center; color: rgb(255, 255, 255); line-height: 56px; font-family: Arial,Helvetica,sans-serif; font-size: 40px; background-color: rgb(23, 23, 23);
+}
+.review_Table1 .review_td3 {
+	width: 80%; height: 16px; text-align: left; color: rgb(255, 255, 255); padding-top: 8px; padding-left: 8px; font-size: 16px; font-weight: bold; vertical-align: top; background-color: rgb(216, 96, 46);
+}
+.review_Table1 .review_td4 {
+	width: 80%; height: 20px; text-align: left; color: rgb(255, 255, 255); padding-left: 8px; font-size: 12px; background-color: rgb(216, 96, 46);
+}
+.review_Table1 .review_td5 {
+	width: 20%; height: auto;
+}
+.review_Table1 .review_td6 {
+	padding: 8px 4px 0px 0px; width: 80%; height: 70px; color: rgb(204, 204, 204); line-height: 22px; text-indent: 2em; font-family: "ËÎÌå"; font-size: 14px;
+}
+.review_Table1 .review_td7 {
+	text-align: center; color: rgb(236, 115, 57); line-height: 28px; padding-bottom: 5px; font-family: "ºÚÌå"; font-size: 28px; font-weight: bold; -ms-writing-mode: tb-rl;
+}
+.review_Table1 .review_td8 {
+	background: url("http://img.gamersky.com/webimg08/review_bg.gif"); width: 100%; height: 25px; overflow: hidden;
+}
+.review_Table2 {
+	border-width: 0px 0px 3px; border-style: none none solid; border-color: currentColor currentColor rgb(199, 80, 40); border-image: none; width: 100%; height: auto; background-color: rgb(40, 42, 45);
+}
+.review_Table2 .review_td1 {
+	width: 50%; height: auto; text-align: left; color: rgb(204, 204, 204); padding-bottom: 4px; vertical-align: top;
+}
+.review_Table2 .review_td2 {
+	width: 50%; height: auto; text-align: left; color: rgb(204, 204, 204); padding-bottom: 4px; vertical-align: top;
+}
+.review_Table2 .review_td3 {
+	width: 50%; height: auto; text-align: left; color: rgb(204, 204, 204); padding-bottom: 4px; vertical-align: top;
+}
+.review_Table2 .review_td4 {
+	width: 50%; height: auto; text-align: left; color: rgb(204, 204, 204); padding-bottom: 4px; vertical-align: top;
+}
+.review_Table2 .review_td1 {
+	background: url("http://img.gamersky.com/webimg08/review_good.gif") no-repeat center;
+}
+.review_Table2 .review_td2 {
+	background: url("http://img.gamersky.com/webimg08/review_good.gif") no-repeat center;
+}
+.review_Table2 .review_td3 {
+	background: url("http://img.gamersky.com/webimg08/review_bad.gif") no-repeat center;
+}
+.review_Table2 .review_td4 {
+	background: url("http://img.gamersky.com/webimg08/review_bad.gif") no-repeat center;
+}
+.review_Table2 .review_td1 {
+	background-position: 8px 0px; padding-left: 32px;
+}
+.review_Table2 .review_td3 {
+	background-position: 8px 0px; padding-left: 32px;
+}
+.review_Table2 .review_td2 {
+	background-position: 0px 0px; padding-left: 26px;
+}
+.review_Table2 .review_td4 {
+	background-position: 0px 0px; padding-left: 26px;
+}
+.review_Table2 .review_td5 {
+	background: url("http://img.gamersky.com/webimg08/review_10.jpg") no-repeat 0px 0px; width: auto; height: 14px; overflow: hidden; padding-right: 8px;
+}
+.review_Table2 .review_td6 {
+	width: 100%; height: 5px;
+}
+.ku {
+	padding: 10px 0px; width: auto; height: auto;
+}
+.ku .ku0 {
+	background: rgb(245, 245, 245); padding: 10px 5px 10px 10px; width: auto; height: auto;
+}
+.ku .ku0 .ku0_1 {
+	width: auto; height: auto; -webkit-box-flex: 1;
+}
+.ku .ku0 .ku0_1 .tit1 {
+	width: auto; height: auto; display: block;
+}
+.ku .ku0 .ku0_1 .tit2 {
+	width: auto; height: auto; color: rgb(102, 102, 102); font-size: 12px; display: block;
+}
+.ku .ku0 .ku0_2 {
+	padding: 5px; width: 75px; height: auto;
+}
+.ku .ku0 .ku0_2 .renqi {
+	background: url("http://image.gamersky.com/webimg13/wap/renqi.gif") no-repeat 5px 5px / 16px 16px rgb(255, 255, 255); padding: 5px; border-radius: 10px; width: 65px; height: auto; color: rgb(255, 0, 0); text-indent: 18px; font-size: 12px; box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+.PicDow {
+	padding: 10px 18px; width: auto; height: auto;
+}
+.PicDow .Pd1 {
+	width: 106px; height: 141px;
+}
+.PicDow .Pd2 {
+	width: auto; height: 141px; position: relative; -webkit-box-flex: 1;
+}
+.PicDow .Pd2 .txt {
+	width: 100%; height: auto; font-size: 12px;
+}
+.PicDow .Pd2 .txt .t1 {
+	width: 60px; height: auto;
+}
+.PicDow .Pd2 .txt .t2 {
+	width: auto; height: auto; -webkit-box-flex: 1;
+}
+.PicDow .Pd2 .dow {
+	left: 0px; width: 100%; height: auto; bottom: 0px; position: absolute;
+}
+.PicDow .Pd2 .dow a {
+	background: rgb(245, 71, 58); border-radius: 4px; width: 178px; height: 26px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; display: block;
+}
+.pf {
+	background: url("http://image.gamersky.com/webimg13/wap/pf.gif") no-repeat 0% 0% / 16px 16px;
+}
+.PFen {
+	padding: 0px 18px; width: auto; height: auto;
+}
+.PFen .PFen_1 {
+	background: rgb(238, 238, 238); padding: 5px; border-radius: 4px; width: 138px; height: auto; margin-right: 6px; float: left;
+}
+.PFen .PFen_1 .webScore {
+	border-radius: 4px; width: 100%; height: 24px; line-height: 24px; text-indent: 32px; margin-bottom: 5px; float: left;
+}
+.PFen .PFen_1 .webScore {
+	background: url("http://image.gamersky.com/webimg13/wap/ws.png") no-repeat 15px 4px / 16px 16px rgb(255, 255, 255);
+}
+.PFen .PFen_1 .webScore a {
+	color: rgb(245, 71, 58); font-size: 14px; display: block;
+}
+.PFen .PFen_1 .userScore {
+	background: rgb(46, 194, 231); border-radius: 4px; width: 67px; height: 24px; text-align: center; color: rgb(255, 255, 255); line-height: 24px; font-size: 10px; margin-right: 5px; float: left;
+}
+.PFen .PFen_1 .myScore {
+	background: rgb(46, 194, 231); border-radius: 4px; width: 66px; height: 24px; text-align: center; line-height: 24px; float: left;
+}
+.PFen .PFen_1 .myScore a {
+	color: rgb(255, 255, 255); font-size: 10px; display: block;
+}
+.PFLayer {
+	padding: 10px; width: 253px; height: auto; position: absolute; z-index: 999;
+}
+.PFLayers {
+	background: rgb(69, 208, 243); border-radius: 5px; width: 253px; height: auto; text-align: center; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
+}
+.PFLayers .tit {
+	width: 252px; height: 30px; color: rgb(255, 255, 255); line-height: 30px;
+}
+.PFLayers .num {
+	padding: 5px 4px 5px 5px; width: 244px; height: auto; margin-top: -5px;
+}
+.PFLayers .num a {
+	background: rgb(255, 255, 255); margin: 0px 1px 1px 0px; width: 60px; height: 24px; color: rgb(68, 68, 68); line-height: 24px; font-weight: bold; float: left;
+}
+.PFen .PFen_2 {
+	background: rgb(238, 238, 238); padding: 5px; border-radius: 4px; width: 120px; height: auto; float: left;
+}
+.PFen .PFen_2 .Gnum {
+	width: 50px; height: auto; float: left;
+}
+.PFen .PFen_2 .Gnum .Gname {
+	width: 60px; height: 17px; color: rgb(245, 71, 58); font-size: 12px;
+}
+.PFen .PFen_2 .Gnum .Inum {
+	background: rgb(255, 255, 255); margin: 0px auto; border-radius: 30px; width: 36px; height: 37px; text-align: center; color: rgb(245, 71, 58); line-height: 37px; font-family: "ºÚÌå"; font-size: 18px; font-weight: bold;
+}
+.PFen .PFen_2 .OKnum {
+	border-radius: 4px; width: 70px; height: 24px; line-height: 24px; margin-bottom: 5px; float: left;
+}
+.PFen .PFen_2 .OKnum {
+	background: url("http://image.gamersky.com/webimg13/wap/ok.png") no-repeat 5px 4px / 16px 16px rgb(46, 194, 231);
+}
+.PFen .PFen_2 .OKnum a {
+	color: rgb(255, 255, 255); text-indent: 22px; font-size: 12px; display: block;
+}
+.PFen .PFen_2 .NOnum {
+	border-radius: 4px; width: 70px; height: 24px; line-height: 24px; float: left;
+}
+.PFen .PFen_2 .NOnum {
+	background: url("http://image.gamersky.com/webimg13/wap/no.png") no-repeat 5px 4px / 16px 16px rgb(46, 194, 231);
+}
+.PFen .PFen_2 .NOnum a {
+	color: rgb(255, 255, 255); text-indent: 22px; font-size: 12px; display: block;
+}
+.JianJie {
+	padding: 5px 10px; width: auto; height: 113px; line-height: 22px; font-size: 14px;
+}
+.JianJie p {
+	margin: 0px; padding: 5px 0px;
+}
+.Open {
+	height: auto;
+}
+.fixed {
+	background: rgb(246, 246, 246); width: 100%; height: 30px; overflow: visible; padding-top: 10px; border-top-color: rgb(217, 217, 217); border-top-width: 1px; border-top-style: solid;
+}
+.Navku {
+	width: 100%; height: 28px; text-align: center; border-bottom-color: rgb(253, 127, 65); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.Navku a {
+	border-radius: 4px 4px 0px 0px; font-size: 16px; display: inline-block;
+}
+.Navku a.nku {
+	width: 30%; height: 28px; color: rgb(46, 46, 46); line-height: 28px;
+}
+.Navku a.npz {
+	width: 40%; height: 28px; color: rgb(46, 46, 46); line-height: 28px;
+}
+.Navku a.nsp {
+	width: 40%; height: 28px; color: rgb(46, 46, 46); line-height: 28px;
+}
+.Navku a.cur {
+	background: rgb(253, 127, 65); color: rgb(255, 255, 255);
+}
+ul.pz {
+	padding: 10px; width: auto; height: auto;
+}
+ul.pz li {
+	padding: 5px 0px; width: auto; height: auto; font-size: 12px;
+}
+ul.pz li.bgc {
+	background: rgb(245, 245, 245);
+}
+ul.pz li .pz_1 {
+	width: 44px; height: auto; text-indent: 5px;
+}
+ul.pz li .pz_2 {
+	width: auto; height: auto; -webkit-box-flex: 1;
+}
+ul.XGYX {
+	padding: 0px 5px; width: auto; height: auto;
+}
+ul.XGYX li {
+	width: auto; height: auto; text-align: center; padding-top: 10px; -webkit-box-flex: 1;
+}
+ul.XGYX li a {
+	width: 95px; height: auto; text-align: left; color: rgb(50, 57, 61); line-height: 18px; font-size: 12px; display: inline-block;
+}
+.Mid_play {
+	width: 100%; height: auto; display: block;
+}
+.Mid_play .play1 {
+	width: auto; height: auto; display: block;
+}
+.Mid_play .play2 {
+	background: rgb(239, 239, 239); width: 100%; height: 30px; border-top-color: rgb(217, 217, 217); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.Mid_play .play2 .fn {
+	width: auto; height: 30px; border-right-color: rgb(217, 217, 217); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.Mid_play .play2 .fn .video {
+	width: auto; height: 30px; color: rgb(124, 124, 124); line-height: 30px; text-indent: 30px; padding-right: 10px; font-size: 12px; display: inline-block;
+}
+.Mid_play .play2 .fn .video {
+	background: url("http://image.gamersky.com/webimg13/wap/ply.png") no-repeat 10px 8px / 19px 14px;
+}
+.Mid_play .play2 .fn .ok {
+	width: auto; height: 30px; color: rgb(124, 124, 124); line-height: 30px; text-indent: 22px; padding-right: 10px; font-size: 12px; display: inline-block;
+}
+.Mid_play .play2 .fn .ok {
+	background: url("http://image.gamersky.com/webimg13/wap/oks.png") no-repeat 10px 10px / 11px 11px;
+}
+.Mid_play .play2 .fn .no {
+	width: auto; height: 30px; color: rgb(124, 124, 124); line-height: 30px; text-indent: 22px; padding-right: 10px; font-size: 12px; display: inline-block;
+}
+.Mid_play .play2 .fn .no {
+	background: url("http://image.gamersky.com/webimg13/wap/nos.png") no-repeat 10px 10px / 11px 11px;
+}
+.Mid_play #bdshare span.bds_more {
+	background: url("http://image.gamersky.com/webimg13/wap/fx.png") no-repeat 10px 7px / 17px 16px !important; padding: 0px; width: 37px; height: 30px; display: inline-block;
+}
+.XQPL {
+	width: auto; height: auto; padding-top: 10px;
+}
+.XQPL .title {
+	margin: 0px 10px; width: auto; height: auto; padding-bottom: 10px; border-bottom-color: rgb(217, 217, 217); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.XQPL .title .tit {
+	width: auto; height: auto; padding-bottom: 5px;
+}
+.XQPL .title .time {
+	width: auto; height: auto; color: rgb(102, 102, 102); font-size: 12px;
+}
+.XQPL .Content {
+	padding: 5px 10px; width: auto; height: auto; color: rgb(102, 102, 102); line-height: 22px; font-size: 14px;
+}
+.XQPL .Content p {
+	margin: 0px; padding: 5px 0px;
+}

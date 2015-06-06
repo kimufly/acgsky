@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="34888.47676BB33A03F" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="acgsky.xr.xml" uri="ms-resource://34888.47676BB33A03F/Files/acgsky.xr.xml">
+				<Candidate type="Path">
+					<Value>acgsky.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://34888.47676BB33A03F/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DMYYPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/DMYYPage.xbf">
+				<Candidate type="Path">
+					<Value>DMYYPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DMZXPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/DMZXPage.xbf">
+				<Candidate type="Path">
+					<Value>DMZXPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InfoPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/InfoPage.xbf">
+				<Candidate type="Path">
+					<Value>InfoPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NewsPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/NewsPage.xbf">
+				<Candidate type="Path">
+					<Value>NewsPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SCPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/SCPage.xbf">
+				<Candidate type="Path">
+					<Value>SCPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TPPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/TPPage.xbf">
+				<Candidate type="Path">
+					<Value>TPPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ZWHPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/ZWHPage.xbf">
+				<Candidate type="Path">
+					<Value>ZWHPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="150x150.png" uri="ms-resource://34888.47676BB33A03F/Files/Assets/150x150.png">
+					<Candidate type="Path">
+						<Value>Assets\150x150.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="310x150.png" uri="ms-resource://34888.47676BB33A03F/Files/Assets/310x150.png">
+					<Candidate type="Path">
+						<Value>Assets\310x150.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="44x44.png" uri="ms-resource://34888.47676BB33A03F/Files/Assets/44x44.png">
+					<Candidate type="Path">
+						<Value>Assets\44x44.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="71x71.png" uri="ms-resource://34888.47676BB33A03F/Files/Assets/71x71.png">
+					<Candidate type="Path">
+						<Value>Assets\71x71.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo.gif" uri="ms-resource://34888.47676BB33A03F/Files/Assets/logo.gif">
+					<Candidate type="Path">
+						<Value>Assets\logo.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://34888.47676BB33A03F/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.jpg" uri="ms-resource://34888.47676BB33A03F/Files/Assets/SplashScreen.jpg">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://34888.47676BB33A03F/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://34888.47676BB33A03F/Files/Assets/WideLogo.png"/>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="html">
+				<NamedResource name="Comment.css" uri="ms-resource://34888.47676BB33A03F/Files/html/Comment.css">
+					<Candidate type="Path">
+						<Value>html\Comment.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jquery-1.8.3.js" uri="ms-resource://34888.47676BB33A03F/Files/html/jquery-1.8.3.js">
+					<Candidate type="Path">
+						<Value>html\jquery-1.8.3.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="review.css" uri="ms-resource://34888.47676BB33A03F/Files/html/review.css">
+					<Candidate type="Path">
+						<Value>html\review.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wapcontent.js" uri="ms-resource://34888.47676BB33A03F/Files/html/wapcontent.js">
+					<Candidate type="Path">
+						<Value>html\wapcontent.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wap_content.css" uri="ms-resource://34888.47676BB33A03F/Files/html/wap_content.css">
+					<Candidate type="Path">
+						<Value>html\wap_content.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wap_n.css" uri="ms-resource://34888.47676BB33A03F/Files/html/wap_n.css">
+					<Candidate type="Path">
+						<Value>html\wap_n.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wap_n.js" uri="ms-resource://34888.47676BB33A03F/Files/html/wap_n.js">
+					<Candidate type="Path">
+						<Value>html\wap_n.js</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,245 @@
+* {
+	margin: 0px; padding: 0px; font-size: 100%;
+}
+html {
+	margin: 0px; padding: 0px; font-size: 100%;
+}
+body {
+	margin: 0px; padding: 0px; font-size: 100%;
+}
+body {
+	color: rgb(0, 0, 0); font-family: "Microsoft Yahei", Helvetica; font-size: 16px;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+a {
+	text-decoration: none;
+}
+a:focus {
+	
+}
+ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+ul li {
+	vertical-align: bottom; list-style-type: none;
+}
+div {
+	overflow: hidden;
+}
+ul {
+	overflow: hidden;
+}
+li {
+	overflow: hidden;
+}
+.none {
+	display: none;
+}
+.block {
+	display: block;
+}
+.tc {
+	color: rgb(229, 0, 0);
+}
+.back-to-top {
+	background: rgba(0, 0, 0, 0.5); border-radius: 4px; width: 40px; height: 40px; text-align: center; right: 10px; bottom: 10px; display: inline-block; position: fixed; z-index: 10000;
+}
+.back-to-top .ico-arrow-t {
+	width: 50px; height: 40px; color: rgb(255, 255, 255); line-height: 34px; font-size: 40px; font-style: normal;
+}
+
+.Nav_NTBtn {
+	left: 0px; top: 50px; width: 100%; height: auto; overflow: visible; position: absolute; z-index: 999; box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3); background-color: rgb(245, 245, 245);
+}
+.Nav_NTBtn .NavT_1 {
+	padding: 10px 0px; width: 100%; height: 30px; text-align: center; color: rgb(166, 166, 166);
+}
+.Nav_NTBtn .NavT_1 a {
+	padding: 0px 10px; width: auto; height: 30px; color: rgb(95, 95, 95); line-height: 30px; font-size: 18px; display: inline-block;
+}
+.Nav_NTBtn .NavT_2 {
+	padding: 0px 15px; width: auto; height: 38px; overflow: visible; display: block;
+}
+.Mask {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 998; opacity: 0.4;
+}
+
+ul.SS {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(205, 205, 205) rgb(205, 205, 205); border-radius: 0px 0px 3px 3px; border-image: none; width: 100%; height: auto; position: absolute; z-index: 1000;
+}
+ul.SS li {
+	width: auto; height: 28px; text-align: left; line-height: 28px; border-top-color: rgb(205, 205, 205); border-top-width: 1px; border-top-style: solid; display: block;
+}
+ul.SS li a {
+	color: rgb(102, 102, 102); padding-left: 10px; display: block;
+}
+ul.SS li a:hover {
+	background: rgb(249, 220, 223); color: rgb(240, 108, 123);
+}
+#Ad {
+	width: 100%; height: auto; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#Ad .Close {
+	top: 0px; width: auto; height: auto; text-align: center; right: 0px; color: rgb(60, 87, 104); font-size: 16px; position: absolute;
+}
+.Mid {
+	width: auto; height: auto; display: block;
+}
+ul.PicList {
+	padding: 0px 10px 10px; width: auto; height: auto;
+}
+ul.PicList li {
+	width: auto; height: auto; padding-top: 10px;
+}
+ul.PicList li .Ps {
+	width: 100%; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.PicList li .Ps .Ps_1 {
+	width: 90px; height: 56px;
+}
+ul.PicList li .Ps .Ps_2 {
+	width: auto; height: 56px; -webkit-box-flex: 1;
+}
+ul.PicList li .Ps .Ps_2 .tit {
+	width: auto; height: 32px; color: rgb(40, 40, 42); line-height: 16px; font-size: 14px; display: block;
+}
+ul.PicList li .Ps .Ps_2 .num {
+	width: auto; height: 14px; text-align: right; color: rgb(94, 94, 94); line-height: 14px; font-size: 12px; display: block;
+}
+ul.PicList li .Pb {
+	width: 100%; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.PicList li .Pb .Pb_1 {
+	width: 106px; height: 151px;
+}
+ul.PicList li .Pb .Pb_2 {
+	width: auto; height: 151px; -webkit-box-flex: 1;
+}
+ul.PicList li .Pb .Pb_2 .tit {
+	padding: 0px 0px 2px 5px; width: auto; height: auto; line-height: 16px; display: block;
+}
+ul.PicList li .Pb .Pb_2 .tit a {
+	color: rgb(242, 113, 49); font-size: 14px;
+}
+ul.PicList li .Pb .Pb_2 .txt {
+	background: rgb(245, 245, 245); width: auto; height: 18px; line-height: 18px; padding-left: 5px; font-size: 12px; display: block;
+}
+ul.PicList li .Pb .Pb_2 .tet {
+	width: auto; height: 18px; line-height: 18px; padding-left: 5px; font-size: 12px; display: block;
+}
+ul.PicList li .tt {
+	width: auto; height: 22px; border-bottom-color: rgb(245, 119, 57); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+ul.PicList li .tt .tt0 {
+	background: rgb(245, 119, 57); border-radius: 4px 4px 0px 0px; width: 32px; height: 22px; text-align: center; color: rgb(255, 255, 255); line-height: 22px;
+}
+ul.PicList li .Pi {
+	width: 100%; height: auto;
+}
+ul.PicList li .Pi .Pic {
+	width: auto; height: auto; text-align: center; -webkit-box-flex: 1;
+}
+ul.PicList li .Pi .Pic a {
+	width: 142px; height: auto; text-align: left; color: rgb(50, 57, 61); line-height: 18px; overflow: hidden; font-size: 12px; display: inline-block; position: relative;
+}
+ul.PicList li .Pi .Pic a .p {
+	background: url("http://image.gamersky.com/webimg13/wap/play.png") no-repeat 0% 0% / 37px 37px; left: 52px; top: 21px; width: 37px; height: 37px; position: absolute;
+}
+ul.PicList li .lik {
+	width: 100%; height: 30px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.PicList li .lik a {
+	width: auto; height: 30px; color: rgb(37, 37, 37); line-height: 20px; overflow: hidden; font-size: 16px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+ul.TextList {
+	padding: 0px 10px; width: auto; height: auto;
+}
+ul.TextList li {
+	width: 100%; height: auto;
+}
+ul.TextList li .Ps {
+	width: 100%; padding-top: 10px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.TextList li .Ps .Ps_1 {
+	width: 90px; height: 53px;
+}
+ul.TextList li .Ps .Ps_2 {
+	width: auto; height: 53px; -webkit-box-flex: 1;
+}
+ul.TextList li .Ps .Ps_2 a {
+	display: inline-block;
+}
+ul.TextList li .Ps .Ps_2 .tit {
+	width: auto; height: 32px; color: rgb(40, 40, 42); line-height: 16px; font-size: 14px; display: block;
+}
+ul.TextList li .Ps .Ps_2 .num {
+	width: auto; height: 14px; text-align: right; color: rgb(94, 94, 94); line-height: 14px; font-size: 12px; display: block;
+}
+ul.TextList li .img {
+	width: 100%; height: 117px; padding-top: 10px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.TextList li .img .img_1 {
+	width: 86px; height: 107px;
+}
+ul.TextList li .img .img_2 {
+	width: auto; height: 107px; -webkit-box-flex: 1;
+}
+ul.TextList li .img .img_2 .tit {
+	padding: 0px 0px 2px 5px; width: auto; height: auto; line-height: 20px; display: block;
+}
+ul.TextList li .img .img_2 .tit a {
+	color: rgb(37, 37, 37); font-size: 16px;
+}
+ul.TextList li .img .img_2 .txt {
+	width: auto; height: 22px; color: rgb(102, 102, 102); line-height: 22px; font-size: 14px; display: block;
+}
+ul.TextList li .lik {
+	width: 100%; height: 30px; padding-top: 10px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.TextList li .lik a {
+	width: auto; height: 30px; color: rgb(37, 37, 37); line-height: 20px; overflow: hidden; font-size: 16px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.MMore {
+	padding: 10px 0px; width: 100%; height: auto;
+}
+.MMore a.More {
+	background: rgb(240, 240, 240); margin: 0px 10px; border-radius: 4px; width: auto; height: 40px; text-align: center; display: block;
+}
+.MMore a.More span {
+	width: auto; height: 40px; color: rgb(173, 173, 173); line-height: 40px; text-indent: 20px; display: inline-block;
+}
+.MMore a.More span {
+	background: url("http://image.gamersky.com/webimg13/wap/More.gif") no-repeat 0px 10px / 14px 21px;
+}
+.Bot {
+	width: auto; height: auto; overflow: visible; display: block; position: relative;
+}
+.Bot .Bot_0 {
+	background: rgb(240, 240, 240); padding: 8px 0px; width: auto; height: 100%; text-align: center; color: rgb(37, 37, 37); font-size: 14px;
+}
+.Bot .Bot_0 span {
+	padding: 0px 5px; color: rgb(255, 102, 0);
+}
+.Bot .Bot_0 a {
+	padding: 0px 5px; color: rgb(37, 37, 37);
+}
+.Bot .Bot_1 {
+	background: url("http://image.gamersky.com/webimg13/wap/Tbg.gif") repeat-x rgb(247, 119, 57); width: auto; height: 100%;
+}
+.Bot .Bot_1 .gotop {
+	background: url("http://image.gamersky.com/webimg13/wap/gotop.gif") no-repeat 10px 12px / 16px 16px; width: auto; height: 40px; color: rgb(255, 255, 255); line-height: 40px; padding-left: 30px; font-size: 20px; float: left; display: inline-block;
+}
+.Bot .Bot_1 .NBBtn {
+	padding: 0px 10px; width: auto; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-size: 20px; float: right; display: inline-block;
+}
+.Nav_NBBtn {
+	left: 0px; width: 100%; height: auto; bottom: 40px; overflow: visible; position: absolute; z-index: 999; box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.1); background-color: rgb(245, 245, 245);
+}
+.Nav_NBBtn .NavB_1 {
+	padding: 10px 0px; width: 100%; height: 30px; text-align: center; color: rgb(166, 166, 166);
+}
+.Nav_NBBtn .NavB_1 a {
+	padding: 0px 10px; width: auto; height: 30px; color: rgb(95, 95, 95); line-height: 30px; font-size: 18px; display: inline-block;
+}

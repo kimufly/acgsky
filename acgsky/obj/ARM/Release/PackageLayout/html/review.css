@@ -1,0 +1,230 @@
+/* 评论调用 */
+/* 背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w {background-color:#f5f5f5; border:1px solid #f5f5f5; border-bottom:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-cbox-w .block-post-w {background-color:#f5f5f5; border:1px solid #f5f5f5; border-top:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .post-wrap-b {background-color:#f5f5f5; border:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-cbox-w .cbox-prompt-w-alert {display:none;}
+
+/* 评论(28人参与，28条评论) - 文字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .join-wrap-w strong.wrap-name-b {color:#333; font-size:12px; display:none;}					/* 评论字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .join-wrap-w span.wrap-join-b {color:#333; font-size:12px;}						/* 文字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .join-wrap-w span.wrap-join-w em.join-strong-bg {color:#333; font-size:12px;}	/* 数字色 */
+/* "登录/注册"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .reply-gamersky-w {margin:-36px 0 0;} /*登录/注册定位*/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .reply-gamersky-w .action-login-w {color:#333; text-align:right; padding-right:0;}	/* "/" 色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .reply-gamersky-w .action-login-w a {color: white;display:none; }	/* "登录/注册"字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .reply-gamersky-w .action-logout-w .logout-name-w {color:#333;} /* 登录名 字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .reply-gamersky-w .action-logout-w .logout-name-w a {color:#333;}/* "[退出]"链接色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .reply-gamersky-w .action-visitor-w .visitor-text-w {color:#333;}/* "游客发表"文字色  */
+/* textarea */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .wrap-area-w {background-color:#fff; border:1px solid #fff;} /* 背景色 边框色 */
+/*发布按钮*/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a {float:right; display:inline-block; width:72px; height:29px;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a button {color:#fff; font-size:16px; font-family:'Microsoft YaHei'; width:72px; height:30px; line-height:30px; word-spacing:5px; text-align:center; background-color:#fc9c6d; border:0; border-radius:2px; background-image:url(http://image.gamersky.com/webimg13/commentbut.png);} /**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a:hover button {color:#fff; background-color:#fd7f41; border:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #comment_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a span {display:inline-block; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; width:72px; height:30px; line-height:30px; word-spacing:5px; text-align:center; background-color:#fd7f41; border:0; border-radius:2px; background-image:url(http://image.gamersky.com/webimg13/commentbut.png);}
+
+/*============================================== 列表发布框 ==============================================*/
+/* 背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-cbox-w .block-post-w {background-color:transparent; border:0px solid #333; border-top:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .reply-gamersky-w {background-color:#eee; border:2px solid #cfcfcf; border-bottom:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .post-wrap-b {background-color:#eee; border:2px solid #cfcfcf; border-top:1px solid #eee;}
+/* "登录/注册"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .action-login-w {color:#333;}	/* "/" 色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .action-login-w a {color:white;display:none; }	/* "登录/注册"字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .action-logout-w .logout-name-w {color:#333;} /* 登录名 字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .action-logout-w .logout-name-w a {color:#333;}/* "[退出]"链接色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .action-visitor-w .visitor-text-w {color:#333;}/* "游客发表"文字色  */
+/* textarea边框色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .wrap-area-w {margin:0 5px; border:1px solid #cfcfcf;}	/* textarea 边框色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .area-textarea-w {background-color:transparent;} /* textarea 包裹层背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .textarea-bf {background-color:transparent;}/* textarea背景色 */
+/* textarea */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .wrap-area-w {background-color:#fff; border:1px solid #fff;} /* 背景色 边框色 */
+/* 功能区上边线色值，背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .wrap-action-b {background-color:#eee; border-top:1px solid #eee;}
+/* "剩余字数：5333"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .section-list-w .section-cbox-w .action-sum-w {color:#333;}	/* "剩余字数：5333"文字色  */
+/*发布按钮*/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a {float:right; display:inline-block; width:72px; height:29px;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a button {color:#fff; font-size:16px; font-family:'Microsoft YaHei'; width:72px; height:30px; line-height:30px; word-spacing:5px; text-align:center; background-color:#fc9c6d; border:0; border-radius:2px; background-image:url(http://image.gamersky.com/webimg13/commentbut.png);} /**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a:hover button {color:#fff; background-color:#fd7f41; border:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #list_sohu .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a span {display:inline-block; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; width:72px; height:30px; line-height:30px; word-spacing:5px; text-align:center; background-color:#fd7f41; border:0; border-radius:2px; background-image:url(http://image.gamersky.com/webimg13/commentbut.png);}
+
+
+/*============================================== 发布公用 ==============================================*/
+/* textarea */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .area-textarea-w {background-color:transparent;}	/* 包裹层背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .textarea-bf {background-color:transparent;}	/* textarea背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .textarea-bf {color:#828282;}	/* textarea默认字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .area-textarea-e .textarea-bf {color:#333;}	/* textarea获取焦点字色 */
+/* "剩余字数：5333"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-cbox-w .action-sum-w {color:#333;}
+
+/* 菜单 - 默认状态 - 边框 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w {padding:5px;}  /**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .user-wrap-b {border:0;}
+/* 菜单 - 默认状态 - 用户名字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .user-wrap-w .wrap-name-b {color:#333;}
+/* 菜单 - 展开状态 - 边框 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .user-wrap-e {border:2px solid #ccd4d9;border-bottom:0;}
+/* 下拉菜单 - 边框 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .user-wrap-w .wrap-menu-bd {background-color:#333; border:2px solid #ccd4d9; border-top:0;}
+/* 下拉菜单 -  左右内边框 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .menu-box-bd {border:1px solid #fff; border-top:0; border-bottom:0;}
+/* 下拉菜单 - hover背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-title-w .menu-box-bd a:hover {color:#333; background-color:#f2f2f2;}
+
+
+/* ============================================================ */
+/* section-cbox */
+
+/* 主发布  - 收起状态 - input边框 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-cbox-w .post-default-b {border:2px solid #cfcfcf; border-right:0;}
+/* 主发布  - 收起状态 - input字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-cbox-w .default-wrap-w .wrap-text-f {color:#333;}
+
+
+/* 主发布  - 展开状态 - 功能区上边线色值，背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .wrap-action-b {background-color:transparent; border-top:0;}
+
+/* cbox - 输入框提示条 - 未输入评论内容 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .prompt-empty-b {color:#fff; background-color:#573330;}
+/* cbox - 输入框提示条 - 收到X条新回复 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main a.prompt-reply-w {color:#4799d0; background-color:#d9f1ff;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main a.prompt-reply-w:hover {color:#4799d0; background-color:#c7eaff;}
+
+/* ============================================================ */
+/* section-list */
+
+/* 列表区 - 边框色，背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w {background-color:#f5f5f5; border:1px solid #f5f5f5; border-bottom:0;}
+/* 列表区 - title名称背景色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .block-title-gw ul {background-color:transparent;}
+/* 列表区 - "热门评论"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w strong.title-name-bg {color:#fff;}
+/* 列表区 - 块底线,块背景色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .block-cont-bg {background-color:#f5f5f5; border-bottom:1px solid #bcbcbc; background-image:url();}
+/* 列表区 - 头像边框色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .list-block-gw .block-cont-gw .cont-head-gw {width:65px;}   /**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .list-block-gw .block-cont-gw .cont-head-gw .head-img-gw,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .list-block-gw .block-cont-gw .cont-head-gw .head-name-gw,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .list-block-gw .block-cont-gw .cont-head-gw .head-ip-gw {width:65px;}	/**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .list-block-gw .block-cont-gw .cont-head-gw .head-img-gw img {border:0px solid #010101; border-radius:3px; margin:0;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .list-block-gw .block-cont-gw .cont-msg-gw {padding-left:65px;}
+/* 列表区 - 头像名称文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .head-name-gw {height:auto; color:#757575;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .head-name-gw a {color:#52ade7;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .head-name-gw a.user-url-no {color:#32393d;}
+/* 列表区 - 头像IP地址文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .head-ip-gw {color:#808080;}
+/* 列表区 - 右侧背景色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .msg-wrap-gw {background-color:#fff;}
+/* 列表区 - 内容文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .msg-wrap-gw .wrap-issue-gw {color:#32393d;}  /**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .build-msg-gw .wrap-issue-gw {color:#32393d;} /**/
+
+/* 虚线下划线  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .wrap-user-gw {border-bottom:1px dotted #c8c8c8;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .build-msg-gw {border-bottom:1px dotted #c8c8c8;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .bulid-middle-hide-floor-bd {color:#808080; border-bottom:1px dotted #c8c8c8;}/* 点击查看隐藏楼层 - 块下边线 */
+
+/* 列表区 - 楼层数色值  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w span.user-number-gw {color:#808080;}
+/* 列表区 - 发表日期色值  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w span.user-date-gw {color:#808080;}
+/* 列表区 - "来自哪里"色值  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w span.user-come-gw {color:#808080; display:none;}
+/* 列表区 - 盖楼边框色值，背景色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .wrap-build-gw {background-color:#f5f5f5; border:1px solid #eee;}
+
+/* 列表区 - 盖楼层数数字色值  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w span.user-floor-gw {color:#808080;}
+/* 列表区 - "大连市网友的原贴"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w span.user-position-gw {color:#808080;}
+/* 列表区 - 网友名称之外文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w span.user-username-gw {color:#808080;}
+/* 列表区 - 网友名称文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w em.username-text-gw {color:#52ade7;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w em.username-text-gw a {color:#52ade7;}
+/* 列表区 - 网友IP文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w em.ip-text-gw {color:#CBCBCE;}
+
+/* 顶，踩，回复，分享 - 默认链接色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .action-click-gw span a {color:#52ade7;}
+/* 顶，踩，回复，分享 - hover链接色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .action-click-gw span a:hover,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .action-click-gw span a em.icon-name-bg,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .action-click-gw span a:hover em.icon-name-bg {color:#9a3135;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .action-click-gw span a:hover {color:#52ade7;text-decoration:none;}
+/* 顶，踩（数字） - hover */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .action-click-gw span a:hover em.icon-name-bg {text-decoration:underline;}
+
+/* 点击查看隐藏楼层 - 链接色，背景色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .bulid-middle-hide-floor-bd a {color:#933; background-color:transparent;}
+/* 盖楼 - 中间层 - 边框 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .build-middle-floor-bd {border-bottom:0px dotted #069;}
+/* 盖楼 - title边框色值（无下边框） */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .build-middle-floor-dw .wrap-user-gw,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .build-msg-gw .wrap-user-gw {border:0;}
+
+/* 更多评论 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .more-wrap-b {background-color:#333;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .more-wrap-b a {color:#44708e; background-color:#f5f5f5;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .more-wrap-b a:hover {color:#ee542a;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .more-wrap-w a em.wrap-strong-b {color:#ee542a;}
+/* 评论已关闭 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .close-wrap-b {color:#333; background-color:#f5f5f5; border-top:1px solid #dee4e9;}
+/* 还没有评论 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .prompt-null-b {color:#333; background-color:transparent;}
+
+/* 来自畅言 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-service-w .service-wrap-b a {color:#333;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-service-w .service-wrap-b a:hover {color:#ee542a;}
+
+/* ============================================================ */
+/* 翻页 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #page_sohu {background-color:#f5f5f5; border:1px solid #f5f5f5; border-top:0;} /**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main #page_sohu .section-page-w span {padding:10px 0 15px 0;} /**/
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-gw a,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w a {color:#777; background-color:#eee; border:1px solid #cfcfcf; padding:0px 5px 0px;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-gw a:hover,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w a:hover {color:#777; background-color:#fff; border:1px solid #cfcfcf;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w .wrap-ellipsis-b {background-color:#eee; border:1px solid #cfcfcf; margin:0; padding:3px 0px 3px; width:16px; text-align:center;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w .wrap-ellipsis-b i {color:#777; font-weight:bold; width:0; height:0; display:inline; overflow:none;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w a.wrap-current-e {color:#016799; font-weight:bold; background-color:#fff; border:1px solid #016799; cursor:default;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w a,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w a.wrap-current-e {margin:0 1px;}
+
+/* ============================================================ */
+/* 分享 -  新浪，人人，QQ空间 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .share-wrapper-dw .wrapper-loading-dw {background-color:#f5f5f5; border:2px solid #bcbcbc;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .share-wrapper-dw .wrapper-loading-dw ul li a:hover {background-color:#bcbcbc;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .user-msg-wrapper-dw .wrapper-cont-dw .cont-tab-dw .wrap-action-gw .action-click-gw a,
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .user-msg-wrapper-dw .wrapper-cont-dw .cont-tab-dw .wrap-action-gw .action-click-gw a:hover {color:#0067cc;}
+
+/* ============================================================ */
+/* 主发布区 - 评分 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-cbox-w .issue-grade-b {border-left:1px solid #e6eaed;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-cbox-w .issue-grade-w ul li .grade-text-b {color:#808080;}
+
+
+/* ============================================================ */
+/* 游民定制样式(非畅言默认样式)  */
+
+
+/* 主发布区 -  "分享到微博"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .share-text-w {color:#333;}
+/* 列表发布区 -  "分享到微博"文字色  */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .share-text-w {color:#333;}
+
+/* 点击这里查看评论详细内容 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .title-wrap-gw {background-color:#fd7f41;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .title-link-gw a {color:#fff;}
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .title-link-gw a:hover {text-decoration:none; color:#52ade7;}
+/* 引用内容文字色 */
+#SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w span.cite-text-gw {color:#808080;}
+
+
+/*头像弹层*/
+#user_page {display:none;}

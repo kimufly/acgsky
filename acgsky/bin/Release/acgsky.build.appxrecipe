@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LIGA</Machine>
+    <WindowsUser>Liga</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a2c37b2a-5651-44b6-af90-46e37091f3c3</PackageIdentityName>
+    <IntermediateOutputPath>F:\acgsky\acgsky\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\acgsky\acgsky\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\acgsky.exe">
+      <PackagePath>acgsky.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\150x150.png">
+      <PackagePath>Assets\150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\44x44.png">
+      <PackagePath>Assets\44x44.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\71x71.png">
+      <PackagePath>Assets\71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\Assets\logo.gif">
+      <PackagePath>Assets\logo.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\CustomButton.xbf">
+      <PackagePath>CustomButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\DMZXPage.xbf">
+      <PackagePath>DMZXPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\InfoPage.xbf">
+      <PackagePath>InfoPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\NewsPage.xbf">
+      <PackagePath>NewsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\PLPage.xbf">
+      <PackagePath>PLPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\TPPage.xbf">
+      <PackagePath>TPPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\ZWHPage.xbf">
+      <PackagePath>ZWHPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\acgsky.xr.xml">
+      <PackagePath>acgsky.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\acgsky\acgsky\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

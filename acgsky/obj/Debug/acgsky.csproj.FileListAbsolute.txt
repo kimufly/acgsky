@@ -1,0 +1,372 @@
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\App.g.i.cs
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\App.g.cs
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.g.i.cs
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.g.cs
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\XamlTypeInfo.g.cs
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\App.xaml
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\App.xbf
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\XamlSaveStateFile.xml
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\App.xbf
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\MainPage.xbf
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.xr.xml
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.exe
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.pdb
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\resources.pri
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\AppxManifest.xml
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.build.appxrecipe
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.xaml
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.xbf
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\acgsky.exe
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\acgsky.pdb
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\priconfig.xml
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\priconfig.xml.intermediate
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\layout.resfiles
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\layout.resfiles.intermediate
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\resources.resfiles
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\resources.resfiles.intermediate
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\pri.resfiles
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\pri.resfiles.intermediate
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\qualifiers.txt
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\qualifiers.txt.intermediate
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\liga\documents\visual studio 2013\Projects\acgsky\acgsky\obj\Debug\ProjectArchitectures.txt
+F:\acgsky\acgsky\bin\Debug\App.xbf
+F:\acgsky\acgsky\bin\Debug\DMYYPage.xbf
+F:\acgsky\acgsky\bin\Debug\DMZXPage.xbf
+F:\acgsky\acgsky\bin\Debug\InfoPage.xbf
+F:\acgsky\acgsky\bin\Debug\MainPage.xbf
+F:\acgsky\acgsky\bin\Debug\NewsPage.xbf
+F:\acgsky\acgsky\bin\Debug\SCPage.xbf
+F:\acgsky\acgsky\bin\Debug\TPPage.xbf
+F:\acgsky\acgsky\bin\Debug\ZWHPage.xbf
+F:\acgsky\acgsky\bin\Debug\acgsky.xr.xml
+F:\acgsky\acgsky\bin\Debug\acgsky.exe
+F:\acgsky\acgsky\bin\Debug\acgsky.pdb
+F:\acgsky\acgsky\bin\Debug\resources.pri
+F:\acgsky\acgsky\bin\Debug\AppxManifest.xml
+F:\acgsky\acgsky\bin\Debug\acgsky.build.appxrecipe
+F:\acgsky\acgsky\obj\Debug\App.g.i.cs
+F:\acgsky\acgsky\obj\Debug\App.g.cs
+F:\acgsky\acgsky\obj\Debug\DMYYPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\DMYYPage.g.cs
+F:\acgsky\acgsky\obj\Debug\DMZXPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\DMZXPage.g.cs
+F:\acgsky\acgsky\obj\Debug\InfoPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\InfoPage.g.cs
+F:\acgsky\acgsky\obj\Debug\MainPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\MainPage.g.cs
+F:\acgsky\acgsky\obj\Debug\NewsPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\NewsPage.g.cs
+F:\acgsky\acgsky\obj\Debug\SCPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\SCPage.g.cs
+F:\acgsky\acgsky\obj\Debug\TPPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\TPPage.g.cs
+F:\acgsky\acgsky\obj\Debug\ZWHPage.g.i.cs
+F:\acgsky\acgsky\obj\Debug\ZWHPage.g.cs
+F:\acgsky\acgsky\obj\Debug\XamlTypeInfo.g.cs
+F:\acgsky\acgsky\obj\Debug\App.xaml
+F:\acgsky\acgsky\obj\Debug\DMYYPage.xaml
+F:\acgsky\acgsky\obj\Debug\DMZXPage.xaml
+F:\acgsky\acgsky\obj\Debug\InfoPage.xaml
+F:\acgsky\acgsky\obj\Debug\MainPage.xaml
+F:\acgsky\acgsky\obj\Debug\NewsPage.xaml
+F:\acgsky\acgsky\obj\Debug\SCPage.xaml
+F:\acgsky\acgsky\obj\Debug\TPPage.xaml
+F:\acgsky\acgsky\obj\Debug\ZWHPage.xaml
+F:\acgsky\acgsky\obj\Debug\App.xbf
+F:\acgsky\acgsky\obj\Debug\DMYYPage.xbf
+F:\acgsky\acgsky\obj\Debug\DMZXPage.xbf
+F:\acgsky\acgsky\obj\Debug\InfoPage.xbf
+F:\acgsky\acgsky\obj\Debug\MainPage.xbf
+F:\acgsky\acgsky\obj\Debug\NewsPage.xbf
+F:\acgsky\acgsky\obj\Debug\SCPage.xbf
+F:\acgsky\acgsky\obj\Debug\TPPage.xbf
+F:\acgsky\acgsky\obj\Debug\ZWHPage.xbf
+F:\acgsky\acgsky\obj\Debug\XamlSaveStateFile.xml
+F:\acgsky\acgsky\obj\Debug\acgsky.exe
+F:\acgsky\acgsky\obj\Debug\acgsky.pdb
+F:\acgsky\acgsky\obj\Debug\acgsky.csproj.GenerateResource.Cache
+F:\acgsky\acgsky\obj\Debug\priconfig.xml
+F:\acgsky\acgsky\obj\Debug\priconfig.xml.intermediate
+F:\acgsky\acgsky\obj\Debug\layout.resfiles
+F:\acgsky\acgsky\obj\Debug\layout.resfiles.intermediate
+F:\acgsky\acgsky\obj\Debug\resources.resfiles
+F:\acgsky\acgsky\obj\Debug\resources.resfiles.intermediate
+F:\acgsky\acgsky\obj\Debug\pri.resfiles
+F:\acgsky\acgsky\obj\Debug\pri.resfiles.intermediate
+F:\acgsky\acgsky\obj\Debug\qualifiers.txt
+F:\acgsky\acgsky\obj\Debug\qualifiers.txt.intermediate
+F:\acgsky\acgsky\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\acgsky\acgsky\obj\Debug\ProjectArchitectures.txt
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\acgsky.exe
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\acgsky.pdb
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\App.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\DMYYPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\DMZXPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\InfoPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\MainPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\NewsPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\SCPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\TPPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\ZWHPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\acgsky.xr.xml
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\acgsky.exe
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\acgsky.pdb
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\resources.pri
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\AppxManifest.xml
+C:\Users\jingjing\Desktop\acgsky\acgsky\bin\Debug\acgsky.build.appxrecipe
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\App.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\App.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMYYPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMYYPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMZXPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMZXPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\InfoPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\InfoPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\MainPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\MainPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\NewsPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\NewsPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\SCPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\SCPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\TPPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\TPPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\ZWHPage.g.i.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\ZWHPage.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\App.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMYYPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMZXPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\InfoPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\MainPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\NewsPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\SCPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\TPPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\ZWHPage.xaml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\App.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMYYPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\DMZXPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\InfoPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\MainPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\NewsPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\SCPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\TPPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\ZWHPage.xbf
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\XamlSaveStateFile.xml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\acgsky.csproj.GenerateResource.Cache
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\priconfig.xml
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\priconfig.xml.intermediate
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\layout.resfiles
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\layout.resfiles.intermediate
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\resources.resfiles
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\resources.resfiles.intermediate
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\pri.resfiles
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\pri.resfiles.intermediate
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\qualifiers.txt
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\qualifiers.txt.intermediate
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jingjing\Desktop\acgsky\acgsky\obj\Debug\ProjectArchitectures.txt
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\App.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\DMYYPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\DMZXPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\InfoPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\MainPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\NewsPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\SCPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\TPPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\ZWHPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\acgsky.xr.xml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\acgsky.exe
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\acgsky.pdb
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\resources.pri
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\AppxManifest.xml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\bin\Debug\acgsky.build.appxrecipe
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\App.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\App.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMYYPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMYYPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMZXPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMZXPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\InfoPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\InfoPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\MainPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\MainPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\NewsPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\NewsPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\SCPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\SCPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\TPPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\TPPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\ZWHPage.g.i.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\ZWHPage.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\XamlTypeInfo.g.cs
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\App.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMYYPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMZXPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\InfoPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\MainPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\NewsPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\SCPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\TPPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\ZWHPage.xaml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\App.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMYYPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\DMZXPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\InfoPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\MainPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\NewsPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\SCPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\TPPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\ZWHPage.xbf
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\XamlSaveStateFile.xml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\acgsky.exe
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\acgsky.pdb
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\acgsky.csproj.GenerateResource.Cache
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\priconfig.xml
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\priconfig.xml.intermediate
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\layout.resfiles
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\layout.resfiles.intermediate
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\resources.resfiles
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\resources.resfiles.intermediate
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\pri.resfiles
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\pri.resfiles.intermediate
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\qualifiers.txt
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\qualifiers.txt.intermediate
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+Z:\Time Machine\C#入门详解\acgsky\acgsky\obj\Debug\ProjectArchitectures.txt
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\App.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\DMYYPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\DMZXPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\InfoPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\MainPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\NewsPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\SCPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\TPPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\ZWHPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\acgsky.xr.xml
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\acgsky.exe
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\acgsky.pdb
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\resources.pri
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\AppxManifest.xml
+C:\Users\jingjing\Documents\acgsky\acgsky\bin\Debug\acgsky.build.appxrecipe
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\App.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\App.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMYYPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMYYPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMZXPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMZXPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\InfoPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\InfoPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\MainPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\MainPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\NewsPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\NewsPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\SCPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\SCPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\TPPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\TPPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\ZWHPage.g.i.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\ZWHPage.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\App.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMYYPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMZXPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\InfoPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\NewsPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\SCPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\TPPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\ZWHPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\App.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMYYPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\DMZXPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\InfoPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\NewsPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\SCPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\TPPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\ZWHPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\XamlSaveStateFile.xml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\MainPage.xaml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\MainPage.xbf
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\acgsky.exe
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\acgsky.pdb
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\acgsky.csproj.GenerateResource.Cache
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\priconfig.xml
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\priconfig.xml.intermediate
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\layout.resfiles
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\layout.resfiles.intermediate
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\resources.resfiles
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\resources.resfiles.intermediate
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\pri.resfiles
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\pri.resfiles.intermediate
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\qualifiers.txt
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\qualifiers.txt.intermediate
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jingjing\Documents\acgsky\acgsky\obj\Debug\ProjectArchitectures.txt
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\acgsky.exe
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\acgsky.pdb
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\App.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\DMYYPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\DMZXPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\InfoPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\MainPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\NewsPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\SCPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\TPPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\ZWHPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.xr.xml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.exe
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.pdb
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\resources.pri
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\AppxManifest.xml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\acgsky.build.appxrecipe
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\App.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\App.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMYYPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMYYPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\NewsPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\NewsPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\SCPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\SCPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\TPPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\TPPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\ZWHPage.g.i.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\ZWHPage.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\App.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMYYPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\NewsPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\SCPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\TPPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\ZWHPage.xaml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\App.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMYYPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\NewsPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\SCPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\TPPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\ZWHPage.xbf
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\XamlSaveStateFile.xml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\acgsky.csproj.GenerateResource.Cache
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\priconfig.xml
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\priconfig.xml.intermediate
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\layout.resfiles
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\layout.resfiles.intermediate
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\resources.resfiles
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\resources.resfiles.intermediate
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\pri.resfiles
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\pri.resfiles.intermediate
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\qualifiers.txt
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\qualifiers.txt.intermediate
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\ProjectArchitectures.txt

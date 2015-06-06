@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="acgsky.InfoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:acgsky"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Background="#FFFF6C00" RequestedTheme="Light"
+>
+    <Page.Transitions>
+        <TransitionCollection>
+
+            <!-- This transition just uses the default behavior which is to
+                 have the button animate into view from the right. You can
+                 make it start from anywhere on the right by using the
+                 FromHorizontalOffset property. If you'd rather see a vertical
+                 animation, use the FromVerticalOffset property. -->
+            <!--<EntranceThemeTransition IsStaggeringEnabled="True" FromHorizontalOffset="200" />-->
+            <!--<EdgeUIThemeTransition/>-->
+
+            <!--<ContentThemeTransition/>-->
+            <!--<AddDeleteThemeTransition/>-->
+            <!--<PopupThemeTransition/>-->
+            <PaneThemeTransition/>
+        </TransitionCollection>
+    </Page.Transitions>
+    <Grid Background="White">
+        <Image Source="Assets/SplashScreen.png" Margin="0,0,0,10" />
+        <Grid Background="White" Margin="0,0,0,100" />
+        <Image Source="Assets/logo.gif" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="42,0,0,0" Stretch="None" />
+        <StackPanel VerticalAlignment="Center" Margin="0,60,0,0">
+            <TextBlock  TextWrapping="Wrap" Text="动漫星空是以动漫资讯、动漫壁纸、动漫音乐、动漫周边产品等内容为主打的综合动漫门户。并有最新最全的热门新番提供在线播放，以及各类动漫排行榜便于动漫爱好者查询阅读，除此之外还有各类热门新番的动漫专区供爱好者集中讨论、阅读。"  Foreground="#FFFF6C00" FontSize="16" Margin="8,0,8,0"/>
+            <TextBlock  TextWrapping="Wrap" Text="&#x000A;本客户端属第三方，由作者的兴趣而开发，如果你喜欢这个APP，可以捐赠作者，支付宝账号：1632342065@qq.com（*二妹）&#x000A;如果发现BUG或者有意见或者建议，欢迎联系&#x000A;本工作室兼职WPAPP开发业务，如有需要欢迎联系" Foreground="#FFFF6C00" FontSize="16" Margin="8,0,8,0"/>
+            <Button x:ConnectionId='1' Content="评价这个APP" Style="{StaticResource B2}" Margin="50,1,50,0"                      />
+        </StackPanel>
+        <TextBlock  TextWrapping="Wrap" Text="联系方式：kamitokami@outlook.com" VerticalAlignment="Bottom" Foreground="#FFFF6C00" FontSize="16" Margin="8,20,8,0" HorizontalAlignment="Center"/>
+    </Grid>
+</Page>
+
