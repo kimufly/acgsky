@@ -74,5 +74,20 @@ namespace acgsky
                 ema.To.Add(emailRecipient);
             await Windows.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(ema);
         }
+
+        private void 赞助_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

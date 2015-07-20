@@ -1,1 +1,1 @@
-C:\Users\jingjing\Documents\acgsky\acgsky\AppPackages\acgsky_1.1.0.31_Test\acgsky_1.1.0.31_arm.appxbundle
+C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\AppPackages\acgsky_1.1.0.33_Test\acgsky_1.1.0.33_arm.appxbundle

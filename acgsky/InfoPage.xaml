@@ -26,16 +26,18 @@
     </Page.Transitions>
     <Grid Background="White">
         <Image Source="Assets/SplashScreen.png" Margin="0,0,0,10" />
-        <Grid Background="White" Margin="0,0,0,100" />
-        <Image Source="Assets/logo.gif" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="48,0,0,0" Stretch="None" />
-
-        <TextBlock VerticalAlignment="Center" Margin="0,60,0,0" TextWrapping="Wrap" Text="动漫星空是以动漫资讯、动漫壁纸、动漫音乐、动漫周边产品等内容为主打的综合动漫门户。本APP为第三方，作者在业余时间因兴趣而开发，希望大家能多多支持。"  Foreground="#FFFF6C00" FontSize="16" />
+        <Image Source="Assets/logo.gif" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="85,35,35,0" Stretch="None" />
+        <TextBlock VerticalAlignment="Center" Margin="70,475,70,118" TextWrapping="Wrap" Foreground="#FFFF6C00" FontSize="16" Height="175">
+            <Run Text="zhichi "></Run>
+        </TextBlock>
         <Grid x:Name="YJMS" Background="#B2000000" IsHitTestVisible="False" Visibility="Collapsed"  />
+        <TextBox HorizontalAlignment="Left" Margin="30,151,0,0" TextWrapping="Wrap" Text="    动漫星空是以动漫资讯、动漫壁纸、动漫音乐、动漫周边产品等内容为主打的综合动漫门户。本APP为第三方，作者在业余时间因兴趣而开发，希望大家能多多支持。&#xD;&#xA;    &#xD;&#xA;    工作室正在筹备将本应用适配win10，并推出更多win10 APP，希望大家继续坚持WP平台，这真的是个很舒服的系统。工作室到现在没有收入，本应用之后也坚持不做广告。我们希望你们的支持，让工作室更好的走下去。&#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;赞助作者：（支付宝   *靖靖  ）jingjingay009@qq.com &#xD;&#xA;&#xD;&#xA;" VerticalAlignment="Top" Height="419" Width="335" FontSize="18" FontFamily="SimHei" TextChanged="TextBox_TextChanged" Foreground="#FFFF6C00"/>
     </Grid>
     <Page.BottomAppBar>
         <CommandBar Background="#FFFF6C00"  >
-            <AppBarButton x:Name="评价" Label="评论打分" Icon="Message" Click="评价_Click"/>
-            <AppBarButton x:Name="联系" Label="联系作者" Icon="Mail" Click="联系_Click"/>
+            <AppBarButton x:Name="评价" Label="评论打分" Icon="Like" Click="评价_Click"/>
+            <!--AppBarButton x:Name="赞助" Label="赞助作者" Icon="Shop" Click="赞助_Click"/-->
+            <AppBarButton x:Name="联系" Label="联系作者" Icon="MailFilled" Click="联系_Click"/>
         </CommandBar>
     </Page.BottomAppBar>
 </Page>

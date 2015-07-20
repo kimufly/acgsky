@@ -182,10 +182,19 @@ namespace acgsky
             string e = "\" width=";
             MatchCollection M= new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
 
-            string s2 = "blank\">";
+            //string s2 = "blank\">";
+            //string e2 = "</a></li>";
+            string s2 = "data-itemid=\"";
             string e2 = "</a></li>";
-            MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
-
+            MatchCollection M2 = new Regex("data-itemid=\"\\d+\">[.\\s\\S]*?(?=("+ e2 +"))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
+            string temp;
+            Collection<Match> contents = new Collection<Match>(); 
+            for(int i = 0;i < M2.Count;i++)
+            {
+                temp = M2[i].Value;
+                Match tempMatch = new Regex("(?<=(\">))[.\\s\\S]*?$", RegexOptions.Multiline | RegexOptions.Singleline).Match(temp);
+                contents.Add(tempMatch);
+            }
             string s3 = "<a href=\"";
             string e3 = "\" t";
             MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
@@ -200,11 +209,11 @@ namespace acgsky
                     SYTTB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value)) };
                     SYTTB3.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[3].Value))};
                     SYTTB4.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[4].Value)) };
-                    SYTTB0.Content = M2[0].Value;
-                    SYTTB1.Content = M2[1].Value;
-                    SYTTB2.Content = M2[2].Value;
-                    SYTTB3.Content = M2[3].Value;
-                    SYTTB4.Content = M2[4].Value;
+                    SYTTB0.Content = contents[0].Value;
+                    SYTTB1.Content = contents[1].Value;
+                    SYTTB2.Content = contents[2].Value;
+                    SYTTB3.Content = contents[3].Value;
+                    SYTTB4.Content = contents[4].Value;
                     SYTTB0.Tag = M3[0].Value;
                     SYTTB1.Tag = M3[1].Value;
                     SYTTB2.Tag = M3[2].Value;
