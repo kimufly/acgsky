@@ -158,7 +158,6 @@
             <AppBarButton x:Name="刷新" Label="刷新" Icon="Refresh" Click="刷新_Click"/>
             <AppBarButton x:Name="全部分类" Label="全部分类" Icon="List" Click="全部分类_Click"/>
             <AppBarButton x:Name="收藏" Label="查看收藏" Icon="Favorite" Click="收藏_Click"/>
-            <!--AppBarButton x:Name="关于" Label="关于"  Icon="People" Click="关于_Click" /-->
             <CommandBar.SecondaryCommands>
                 <AppBarButton x:Name="yjms"  Label="夜间模式" Click="yjms_Click" />
             </CommandBar.SecondaryCommands>

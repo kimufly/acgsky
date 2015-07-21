@@ -307,7 +307,6 @@ C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\App.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\DMYYPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\DMZXPage.xbf
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\InfoPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\MainPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\NewsPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\Debug\SCPage.xbf
@@ -325,8 +324,6 @@ C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMYYPage.g.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.g.i.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.g.cs
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.g.i.cs
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.g.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.g.i.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.g.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\NewsPage.g.i.cs
@@ -341,7 +338,6 @@ C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\App.xaml
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMYYPage.xaml
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.xaml
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.xaml
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.xaml
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\NewsPage.xaml
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\SCPage.xaml
@@ -350,7 +346,6 @@ C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\App.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMYYPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\DMZXPage.xbf
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\InfoPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\MainPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\NewsPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\Debug\SCPage.xbf

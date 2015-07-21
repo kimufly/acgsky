@@ -7,7 +7,7 @@
 
     有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="34888.47676BB33A03F" Publisher="CN=EB5D5C48-D127-4CD2-AB26-87BDF6A7DD8B" Version="1.1.0.31" ProcessorArchitecture="neutral" />
+  <Identity Name="34888.47676BB33A03F" Publisher="CN=EB5D5C48-D127-4CD2-AB26-87BDF6A7DD8B" Version="1.1.0.33" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="a2c37b2a-5651-44b6-af90-46e37091f3c3" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>动漫星空</DisplayName>

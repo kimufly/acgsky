@@ -235,7 +235,6 @@ namespace acgsky
 //    FlipView4.SelectedIndex = 0;
 //    }
 // });
-// _timer.Start();
 
         }
         private void 首页次条(string html)
@@ -762,10 +761,10 @@ namespace acgsky
             DM5.Begin();
         }
 
-        private void 关于_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(InfoPage));
-        }
+        //private void 关于_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame.Navigate(typeof(InfoPage));
+        //}
 
         private async void ListView0_ItemClick(object sender, ItemClickEventArgs e)
         {
