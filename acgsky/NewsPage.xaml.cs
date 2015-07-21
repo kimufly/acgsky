@@ -406,7 +406,7 @@ namespace acgsky
                 CB.Visibility = Visibility.Collapsed;
                 //Frame.Navigate(typeof(PLPage), bf);
                 int lingshi2 = bf.IndexOf("<div class=\"Top\">");
-                int lingshi3 = bf.LastIndexOf("<div class=\"Mid_4\">");
+                int lingshi3 = bf.LastIndexOf("<div class=\"Mid40_1\">互动评论</div>");
                 string zong = bf.Remove(lingshi2, lingshi3 - lingshi2);
                 int lingshi22 = zong.LastIndexOf("<div class=\"Bot\">");
                 int lingshi33 = zong.LastIndexOf("</body>");
