@@ -7,7 +7,7 @@
 
     有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="34888.47676BB33A03F" Publisher="CN=EB5D5C48-D127-4CD2-AB26-87BDF6A7DD8B" Version="1.1.0.33" ProcessorArchitecture="neutral" />
+  <Identity Name="34888.47676BB33A03F" Publisher="CN=EB5D5C48-D127-4CD2-AB26-87BDF6A7DD8B" Version="1.1.0.34" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="a2c37b2a-5651-44b6-af90-46e37091f3c3" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>动漫星空</DisplayName>
@@ -49,10 +49,10 @@
     <build:Item Name="VisualStudio" Version="12.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2013" />
     <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.31101.0" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.40629.0" />
     <build:Item Name="ProjectGUID" Value="{1CCCD7B6-DB00-47F9-B7AF-921F601C8786}" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
     <build:Item Name="SQLite.WP81" Version="3.8.10.2" />
-    <build:Item Name="MakePri.exe" Version="6.3.9600.17298 (winblue.141024-1500)" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
   </build:Metadata>
 </Package>

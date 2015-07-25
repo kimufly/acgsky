@@ -137,7 +137,6 @@ C:\Users\jingjing\Documents\acgsky\acgsky\obj\ARM\Release\ProjectArchitectures.t
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\App.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\DMYYPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\DMZXPage.xbf
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\InfoPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\MainPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\NewsPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\SCPage.xbf
@@ -155,8 +154,6 @@ C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Re
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\DMYYPage.g.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\DMZXPage.g.i.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\DMZXPage.g.cs
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\InfoPage.g.i.cs
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\InfoPage.g.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\MainPage.g.i.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\MainPage.g.cs
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\NewsPage.g.i.cs
@@ -185,8 +182,6 @@ C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Re
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\TPPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\ZWHPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\XamlSaveStateFile.xml
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\InfoPage.xaml
-C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\InfoPage.xbf
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\acgsky.exe
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\acgsky.pdb
 C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\acgsky.csproj.GenerateResource.Cache

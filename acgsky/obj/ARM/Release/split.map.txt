@@ -9,7 +9,6 @@
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\SCPage.xbf"			"SCPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\NewsPage.xbf"			"NewsPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
-"C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\InfoPage.xbf"			"InfoPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\html\wap_n.js"			"html\wap_n.js"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\html\wap_n.css"			"html\wap_n.css"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\html\wap_content.css"			"html\wap_content.css"

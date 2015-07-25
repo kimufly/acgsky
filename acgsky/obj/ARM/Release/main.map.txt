@@ -11,7 +11,6 @@
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\SCPage.xbf"			"SCPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\NewsPage.xbf"			"NewsPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
-"C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\InfoPage.xbf"			"InfoPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\DMZXPage.xbf"			"DMZXPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\DMYYPage.xbf"			"DMYYPage.xbf"
 "C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\obj\ARM\Release\PackageLayout\App.xbf"			"App.xbf"

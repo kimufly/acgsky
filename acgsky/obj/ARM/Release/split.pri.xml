@@ -25,11 +25,6 @@
 					<Value>DMZXPage.xbf</Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="InfoPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/InfoPage.xbf">
-				<Candidate type="Path">
-					<Value>InfoPage.xbf</Value>
-				</Candidate>
-			</NamedResource>
 			<NamedResource name="MainPage.xbf" uri="ms-resource://34888.47676BB33A03F/Files/MainPage.xbf">
 				<Candidate type="Path">
 					<Value>MainPage.xbf</Value>

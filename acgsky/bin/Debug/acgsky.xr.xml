@@ -4,9 +4,9 @@
     <RootPropertyPathName Name="Last" />
     <RootPropertyPathName Name="First" />
     <RootPropertyPathName Name="Img" />
-    <RootPropertyPathName Name="Link" />
     <RootPropertyPathName Name="Height" />
     <RootPropertyPathName Name="SelectedIndex" />
+    <RootPropertyPathName Name="Link" />
     <RootPropertyPathName Name="Width" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -23,9 +23,9 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Tag" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="FontFamily" />
+      <RootProperty Name="Tag" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem" />
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
@@ -129,6 +129,7 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
@@ -290,9 +291,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="Style" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="ItemTemplate" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Padding" />
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewBase">
@@ -371,14 +372,15 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="EndPoint" />
-      <RootProperty Name="GradientStops" />
       <RootProperty Name="StartPoint" />
+      <RootProperty Name="GradientStops" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
       <RootProperty Name="Color" />
       <RootProperty Name="Offset" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="Tag" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontSize" />
@@ -387,7 +389,6 @@
       <RootProperty Name="Content" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="Tag" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressRing">

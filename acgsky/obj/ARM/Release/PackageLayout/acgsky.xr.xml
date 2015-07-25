@@ -23,8 +23,6 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Inlines" />
       <RootProperty Name="Tag" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="FontFamily" />
@@ -322,7 +320,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="Source" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="ManipulationMode" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
@@ -357,27 +354,6 @@
     </RootType>
     <RootType FullName="acgsky.DMYYPage" />
     <RootType FullName="acgsky.DMZXPage" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.PaneThemeTransition" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="IsReadOnly" />
-      <RootEvent Name="TextChanged" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Run">
-      <RootProperty Name="Text" />
-    </RootType>
-    <RootType FullName="acgsky.InfoPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Padding" />
@@ -433,6 +409,14 @@
       <RootProperty Name="DefaultBackgroundColor" />
       <RootEvent Name="NavigationStarting" />
       <RootEvent Name="DOMContentLoaded" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="acgsky.NewsPage" />
     <RootType FullName="acgsky.SCPage" />

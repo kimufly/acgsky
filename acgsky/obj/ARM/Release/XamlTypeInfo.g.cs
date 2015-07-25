@@ -124,29 +124,27 @@ namespace acgsky.acgsky_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "acgsky.DMYYPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "acgsky.DMZXPage";
-            _typeNameTable[4] = "acgsky.InfoPage";
-            _typeNameTable[5] = "acgsky.MainPage";
-            _typeNameTable[6] = "acgsky.NewsPage";
-            _typeNameTable[7] = "acgsky.SCPage";
-            _typeNameTable[8] = "acgsky.TPPage";
-            _typeNameTable[9] = "acgsky.ZWHPage";
+            _typeNameTable[4] = "acgsky.MainPage";
+            _typeNameTable[5] = "acgsky.NewsPage";
+            _typeNameTable[6] = "acgsky.SCPage";
+            _typeNameTable[7] = "acgsky.TPPage";
+            _typeNameTable[8] = "acgsky.ZWHPage";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::acgsky.DMYYPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::acgsky.DMZXPage);
-            _typeTable[4] = typeof(global::acgsky.InfoPage);
-            _typeTable[5] = typeof(global::acgsky.MainPage);
-            _typeTable[6] = typeof(global::acgsky.NewsPage);
-            _typeTable[7] = typeof(global::acgsky.SCPage);
-            _typeTable[8] = typeof(global::acgsky.TPPage);
-            _typeTable[9] = typeof(global::acgsky.ZWHPage);
+            _typeTable[4] = typeof(global::acgsky.MainPage);
+            _typeTable[5] = typeof(global::acgsky.NewsPage);
+            _typeTable[6] = typeof(global::acgsky.SCPage);
+            _typeTable[7] = typeof(global::acgsky.TPPage);
+            _typeTable[8] = typeof(global::acgsky.ZWHPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -183,12 +181,11 @@ namespace acgsky.acgsky_XamlTypeInfo
 
         private object Activate_0_DMYYPage() { return new global::acgsky.DMYYPage(); }
         private object Activate_3_DMZXPage() { return new global::acgsky.DMZXPage(); }
-        private object Activate_4_InfoPage() { return new global::acgsky.InfoPage(); }
-        private object Activate_5_MainPage() { return new global::acgsky.MainPage(); }
-        private object Activate_6_NewsPage() { return new global::acgsky.NewsPage(); }
-        private object Activate_7_SCPage() { return new global::acgsky.SCPage(); }
-        private object Activate_8_TPPage() { return new global::acgsky.TPPage(); }
-        private object Activate_9_ZWHPage() { return new global::acgsky.ZWHPage(); }
+        private object Activate_4_MainPage() { return new global::acgsky.MainPage(); }
+        private object Activate_5_NewsPage() { return new global::acgsky.NewsPage(); }
+        private object Activate_6_SCPage() { return new global::acgsky.SCPage(); }
+        private object Activate_7_TPPage() { return new global::acgsky.TPPage(); }
+        private object Activate_8_ZWHPage() { return new global::acgsky.ZWHPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -222,44 +219,37 @@ namespace acgsky.acgsky_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  acgsky.InfoPage
+            case 4:   //  acgsky.MainPage
                 userType = new global::acgsky.acgsky_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_InfoPage;
+                userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  acgsky.MainPage
+            case 5:   //  acgsky.NewsPage
                 userType = new global::acgsky.acgsky_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+                userType.Activator = Activate_5_NewsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  acgsky.NewsPage
+            case 6:   //  acgsky.SCPage
                 userType = new global::acgsky.acgsky_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_NewsPage;
+                userType.Activator = Activate_6_SCPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  acgsky.SCPage
+            case 7:   //  acgsky.TPPage
                 userType = new global::acgsky.acgsky_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_SCPage;
+                userType.Activator = Activate_7_TPPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  acgsky.TPPage
+            case 8:   //  acgsky.ZWHPage
                 userType = new global::acgsky.acgsky_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_TPPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  acgsky.ZWHPage
-                userType = new global::acgsky.acgsky_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_ZWHPage;
+                userType.Activator = Activate_8_ZWHPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

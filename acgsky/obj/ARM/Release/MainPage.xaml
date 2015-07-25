@@ -158,9 +158,8 @@
             <AppBarButton x:ConnectionId='1' x:Name="刷新" Label="刷新" Icon="Refresh"                 />
             <AppBarButton x:ConnectionId='2' x:Name="全部分类" Label="全部分类" Icon="List"                   />
             <AppBarButton x:ConnectionId='3' x:Name="收藏" Label="查看收藏" Icon="Favorite"                 />
-            <AppBarButton x:ConnectionId='4' x:Name="关于" Label="关于"  Icon="People"                  />
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:ConnectionId='5' x:Name="yjms"  Label="夜间模式"                    />
+                <AppBarButton x:ConnectionId='4' x:Name="yjms"  Label="夜间模式"                    />
             </CommandBar.SecondaryCommands>
         </CommandBar>
 
@@ -212,21 +211,21 @@
                         </Grid>
                     </Border>
 
-                    <FlipView x:ConnectionId='44' x:Name="FlipView4" Grid.Row="1"  BorderThickness="0" Padding="0" Margin="0"  VerticalAlignment="Top" Height="223"                                     >
+                    <FlipView x:ConnectionId='43' x:Name="FlipView4" Grid.Row="1"  BorderThickness="0" Padding="0" Margin="0"  VerticalAlignment="Top" Height="223"                                     >
                         <FlipViewItem >
-                            <Button x:ConnectionId='49' x:Name="SYTTB0"  FontSize="14"                       Content="载入中" />
+                            <Button x:ConnectionId='48' x:Name="SYTTB0"  FontSize="14"                       Content="载入中" />
                         </FlipViewItem>
                         <FlipViewItem>
-                            <Button x:ConnectionId='48' x:Name="SYTTB1"  FontSize="14"                       Content="载入中" />
+                            <Button x:ConnectionId='47' x:Name="SYTTB1"  FontSize="14"                       Content="载入中" />
                         </FlipViewItem>
                         <FlipViewItem>
-                            <Button x:ConnectionId='47' x:Name="SYTTB2"  FontSize="14"                       Content="载入中" />
+                            <Button x:ConnectionId='46' x:Name="SYTTB2"  FontSize="14"                       Content="载入中" />
                         </FlipViewItem>
                         <FlipViewItem>
-                            <Button x:ConnectionId='46' x:Name="SYTTB3"  FontSize="14"                       Content="载入中" />
+                            <Button x:ConnectionId='45' x:Name="SYTTB3"  FontSize="14"                       Content="载入中" />
                         </FlipViewItem>
                         <FlipViewItem>
-                            <Button x:ConnectionId='45' x:Name="SYTTB4"  FontSize="14"                       Content="载入中" />
+                            <Button x:ConnectionId='44' x:Name="SYTTB4"  FontSize="14"                       Content="载入中" />
                         </FlipViewItem>
                         <FlipView.ItemsPanel>
                             <ItemsPanelTemplate>
@@ -242,9 +241,9 @@
                             <ColumnDefinition/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
-                        <Button x:ConnectionId='41' x:Name="TTSVB0" Grid.Column="0" Margin="2,2,0,0" FontSize="13"                      Content="载入中"  />
-                        <Button x:ConnectionId='42' x:Name="TTSVB1" Grid.Column="1" Margin="2,2,2,0"  FontSize="13"                      Content="载入中"  />
-                        <Button x:ConnectionId='43' x:Name="TTSVB2" Grid.Column="2" Margin="0,2,2,0" FontSize="13"                      Content="载入中"  />
+                        <Button x:ConnectionId='40' x:Name="TTSVB0" Grid.Column="0" Margin="2,2,0,0" FontSize="13"                      Content="载入中"  />
+                        <Button x:ConnectionId='41' x:Name="TTSVB1" Grid.Column="1" Margin="2,2,2,0"  FontSize="13"                      Content="载入中"  />
+                        <Button x:ConnectionId='42' x:Name="TTSVB2" Grid.Column="2" Margin="0,2,2,0" FontSize="13"                      Content="载入中"  />
                     </Grid>
                 </ScrollViewer>
                 <Grid x:Name="G2" Grid.Row="2" >
@@ -276,11 +275,11 @@
                             </ListBox>
                         </Grid>
                     </Border>
-                    <Pivot x:ConnectionId='35' x:Name="ShouYeTuiJian" Grid.Row="1" Margin="0,25,0,0"                                                                                           >
+                    <Pivot x:ConnectionId='34' x:Name="ShouYeTuiJian" Grid.Row="1" Margin="0,25,0,0"                                                                                           >
                         <PivotItem Style="{StaticResource PivotItemStyle1}"  >
                             <Grid>
                                 <ProgressRing IsActive="True" Foreground="#FFFF6D00" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <ListView x:ConnectionId='40' x:Name="ListView0" Background="White" Opacity="0"  Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled"  >
+                                <ListView x:ConnectionId='39' x:Name="ListView0" Background="White" Opacity="0"  Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled"  >
                                     <ListView.ItemTemplate>
                                         <DataTemplate>
                                             <Grid Margin="2,1" Height="64" >
@@ -303,7 +302,7 @@
                         <PivotItem  Style="{StaticResource PivotItemStyle1}"  >
                             <Grid>
                                 <ProgressRing IsActive="True" Foreground="#FFFF6D00" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <ListView x:ConnectionId='39' x:Name="ListView2" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+                                <ListView x:ConnectionId='38' x:Name="ListView2" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
                                     <ListView.ItemTemplate>
                                         <DataTemplate>
                                             <Grid Margin="2,1" Height="64">
@@ -325,7 +324,7 @@
                         <PivotItem  Style="{StaticResource PivotItemStyle1}" >
                             <Grid>
                                 <ProgressRing IsActive="True" Foreground="#FFFF6D00" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <ListView x:ConnectionId='38' x:Name="ListView3" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+                                <ListView x:ConnectionId='37' x:Name="ListView3" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
                                     <ListView.ItemTemplate>
                                         <DataTemplate>
                                             <Grid Margin="2,1" Height="64">
@@ -347,7 +346,7 @@
                         <PivotItem  Style="{StaticResource PivotItemStyle1}"  >
                             <Grid>
                                 <ProgressRing IsActive="True" Foreground="#FFFF6D00" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <ListView x:ConnectionId='37' x:Name="ListView4" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+                                <ListView x:ConnectionId='36' x:Name="ListView4" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
                                     <ListView.ItemTemplate>
                                         <DataTemplate>
                                             <Grid Margin="2,1" Height="64">
@@ -369,7 +368,7 @@
                         <PivotItem  Style="{StaticResource PivotItemStyle1}"  >
                             <Grid>
                                 <ProgressRing IsActive="True" Foreground="#FFFF6D00" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <ListView x:ConnectionId='36' x:Name="ListView5" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+                                <ListView x:ConnectionId='35' x:Name="ListView5" Background="White" Opacity="0" Margin="0,1,0,0" IsItemClickEnabled="True"                                 ScrollViewer.VerticalScrollBarVisibility="Disabled" >
                                     <ListView.ItemTemplate>
                                         <DataTemplate>
                                             <Grid Margin="2,1" Height="64">
@@ -404,7 +403,7 @@
                         </Border.BorderBrush>
                         <Grid>
                             <TextBlock  Text="动漫壁纸" HorizontalAlignment="Left" Foreground="#FFFF6D00" FontSize="18" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                            <HyperlinkButton x:ConnectionId='34'  Tag="0" HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                              />
+                            <HyperlinkButton x:ConnectionId='33'  Tag="0" HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                              />
                         </Grid>
                     
                     </Border>
@@ -417,7 +416,7 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Button x:ConnectionId='27' x:Name="PictureB0" Grid.ColumnSpan="2" Margin="2,2,1,0" FontSize="14"                      Content="载入中"/>
+                            <Button x:ConnectionId='26' x:Name="PictureB0" Grid.ColumnSpan="2" Margin="2,2,1,0" FontSize="14"                      Content="载入中"/>
                             <Grid Grid.Column="2" Grid.ColumnSpan="3">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*"/>
@@ -428,12 +427,12 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <Button x:ConnectionId='28' x:Name="PictureB1"  Margin="1,2,1,1" FontSize="13"                      Content="载入中"/>
-                                <Button x:ConnectionId='29' x:Name="PictureB2" Grid.Column="1" Margin="1,2,1,1" FontSize="13"                      Content="载入中"/>
-                                <Button x:ConnectionId='30' x:Name="PictureB3"  Grid.Column="2"  Margin="1,2,1,1" FontSize="13"                      Content="载入中"/>
-                                <Button x:ConnectionId='31' x:Name="PictureB4" Grid.Row="1" Margin="1,1,1,0" FontSize="13"                      Content="载入中"/>
-                                <Button x:ConnectionId='32' x:Name="PictureB5" Grid.Row="1" Grid.Column="1" Margin="1,1,1,0" FontSize="13"                      Content="载入中"/>
-                                <Button x:ConnectionId='33' x:Name="PictureB6" Grid.Row="1" Grid.Column="2" Margin="1,1,1,0" FontSize="13"                      Content="载入中"/>
+                                <Button x:ConnectionId='27' x:Name="PictureB1"  Margin="1,2,1,1" FontSize="13"                      Content="载入中"/>
+                                <Button x:ConnectionId='28' x:Name="PictureB2" Grid.Column="1" Margin="1,2,1,1" FontSize="13"                      Content="载入中"/>
+                                <Button x:ConnectionId='29' x:Name="PictureB3"  Grid.Column="2"  Margin="1,2,1,1" FontSize="13"                      Content="载入中"/>
+                                <Button x:ConnectionId='30' x:Name="PictureB4" Grid.Row="1" Margin="1,1,1,0" FontSize="13"                      Content="载入中"/>
+                                <Button x:ConnectionId='31' x:Name="PictureB5" Grid.Row="1" Grid.Column="1" Margin="1,1,1,0" FontSize="13"                      Content="载入中"/>
+                                <Button x:ConnectionId='32' x:Name="PictureB6" Grid.Row="1" Grid.Column="2" Margin="1,1,1,0" FontSize="13"                      Content="载入中"/>
                             </Grid>
                         </Grid>
                     </ScrollViewer>
@@ -452,10 +451,10 @@
                         </Border.BorderBrush>
                         <Grid>
                             <TextBlock x:Name="Cosplaytb"  Text="Cosplay" HorizontalAlignment="Left" Foreground="#FFFF6D00" FontSize="18" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                            <HyperlinkButton x:ConnectionId='26' Tag="4"  HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                              />
+                            <HyperlinkButton x:ConnectionId='25' Tag="4"  HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                              />
                         </Grid>
                     </Border>
-                    <Grid x:ConnectionId='22' Grid.Row="1" x:Name="CosplayG"                                   >
+                    <Grid x:ConnectionId='21' Grid.Row="1" x:Name="CosplayG"                                   >
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
@@ -466,14 +465,14 @@
                             <ColumnDefinition Width="*"/>
 
                         </Grid.ColumnDefinitions>
-                        <Button x:ConnectionId='23' x:Name="CosplayB0" Margin="2,2,0,0" Grid.ColumnSpan="4" FontSize="13"                      Content="载入中"/>
+                        <Button x:ConnectionId='22' x:Name="CosplayB0" Margin="2,2,0,0" Grid.ColumnSpan="4" FontSize="13"                      Content="载入中"/>
                         <Grid Grid.Column="4" Grid.ColumnSpan="3">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
-                            <Button x:ConnectionId='24' x:Name="CosplayB1"  Margin="2,2,2,1"  FontSize="13"                      Content="载入中"/>
-                            <Button x:ConnectionId='25' x:Name="CosplayB2" Margin="2,1,2,0" Grid.Row="1" FontSize="13"                      Content="载入中"/>
+                            <Button x:ConnectionId='23' x:Name="CosplayB1"  Margin="2,2,2,1"  FontSize="13"                      Content="载入中"/>
+                            <Button x:ConnectionId='24' x:Name="CosplayB2" Margin="2,1,2,0" Grid.Row="1" FontSize="13"                      Content="载入中"/>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -491,7 +490,7 @@
                         </Border.BorderBrush>
                         <Grid>
                             <TextBlock  Text="写真" HorizontalAlignment="Left" Foreground="#FFFF6D00" FontSize="18" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                            <HyperlinkButton x:ConnectionId='21'  Tag="5" HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                              />
+                            <HyperlinkButton x:ConnectionId='20'  Tag="5" HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                              />
                         </Grid>
                      
                     </Border>
@@ -505,14 +504,14 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Button x:ConnectionId='18' x:Name="PortraitB0"  Grid.Column="3" Margin="2,2,0,0" Grid.ColumnSpan="4" FontSize="13"                      Content="载入中"/>
+                        <Button x:ConnectionId='17' x:Name="PortraitB0"  Grid.Column="3" Margin="2,2,0,0" Grid.ColumnSpan="4" FontSize="13"                      Content="载入中"/>
                         <Grid  Grid.ColumnSpan="3">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
-                            <Button x:ConnectionId='19' x:Name="PortraitB1"  Margin="2,2,0,1" FontSize="13"                      Content="载入中"/>
-                            <Button x:ConnectionId='20' x:Name="PortraitB2"  Margin="2,1,0,0" FontSize="13" Grid.Row="1"                      Content="载入中"/>
+                            <Button x:ConnectionId='18' x:Name="PortraitB1"  Margin="2,2,0,1" FontSize="13"                      Content="载入中"/>
+                            <Button x:ConnectionId='19' x:Name="PortraitB2"  Margin="2,1,0,0" FontSize="13" Grid.Row="1"                      Content="载入中"/>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -530,7 +529,7 @@
                         </Border.BorderBrush>
                         <Grid>
                             <TextBlock  Text="周边" HorizontalAlignment="Left" Foreground="#FFFF6D00" FontSize="18" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                            <HyperlinkButton x:ConnectionId='17'   HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                                />
+                            <HyperlinkButton x:ConnectionId='16'   HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                                />
                         </Grid>
                     </Border>
                     <Grid Grid.Row="1" >
@@ -538,15 +537,15 @@
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
-                        <Grid x:ConnectionId='13' x:Name="周边G"                               >
+                        <Grid x:ConnectionId='12' x:Name="周边G"                               >
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <Button x:ConnectionId='15' x:Name="Products0" Grid.Column="0" Margin="2,2,1,2" FontSize="13"                      Content="载入中"/>
-                            <Button x:ConnectionId='16' x:Name="Products1" Grid.Column="1" Margin="1,2,2,2" FontSize="13"                      Content="载入中"/>
+                            <Button x:ConnectionId='14' x:Name="Products0" Grid.Column="0" Margin="2,2,1,2" FontSize="13"                      Content="载入中"/>
+                            <Button x:ConnectionId='15' x:Name="Products1" Grid.Column="1" Margin="1,2,2,2" FontSize="13"                      Content="载入中"/>
                         </Grid>
-                        <ListView x:ConnectionId='14' x:Name="ListView1" Background="White" IsItemClickEnabled="True" Grid.Row="1" Padding="2,0" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,10,0,0"                                >
+                        <ListView x:ConnectionId='13' x:Name="ListView1" Background="White" IsItemClickEnabled="True" Grid.Row="1" Padding="2,0" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,10,0,0"                                >
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel  Orientation="Horizontal" >
@@ -572,11 +571,11 @@
                         </Border.BorderBrush>
                         <Grid>
                             <TextBlock  Text="动漫音乐" HorizontalAlignment="Left" Foreground="#FFFF6D00" FontSize="18" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                            <HyperlinkButton x:ConnectionId='12'   HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                                 />
+                            <HyperlinkButton x:ConnectionId='11'   HorizontalAlignment="Right" Foreground="#FFFF6D00" FontSize="32" VerticalAlignment="Center" Margin="0,-10,5,4" Content="···" FontWeight="Bold" Padding="0"                                 />
                         </Grid>
                     </Border>
                     <Grid Grid.Row="1" >
-                        <ListView x:ConnectionId='11' x:Name="ListViewyy" Background="White" IsItemClickEnabled="True" Grid.Row="1" Padding="2,0" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,10,0,0"                                >
+                        <ListView x:ConnectionId='10' x:Name="ListViewyy" Background="White" IsItemClickEnabled="True" Grid.Row="1" Padding="2,0" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,10,0,0"                                >
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel  Orientation="Horizontal" >
@@ -592,7 +591,7 @@
                 <!--<JiuYouAd81:AdControl Grid.Row="8"   Height="70"  Width="400"  x:Name="adControl" ApplicationKey="f386a026f41cd5e70ebedd4fde9939b5" IsCloseIconEnabled="False"/>-->
             </Grid>
         </ScrollViewer>
-        <Grid x:ConnectionId='6' x:Name="List" Background="#CCFFFFFF"  Opacity="0" Visibility="Collapsed"                                      >
+        <Grid x:ConnectionId='5' x:Name="List" Background="#CCFFFFFF"  Opacity="0" Visibility="Collapsed"                                      >
             <Grid  Background="#CCFF5A00" VerticalAlignment="Center"  >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -600,10 +599,10 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Button x:ConnectionId='7' x:Name="图片"  Style="{StaticResource B3}" Content="·动漫图库（动漫壁纸，动漫美图，精彩写真，Cosplay）" FontSize="20"                  BorderThickness="0" Padding="9.5,0"/>
-                <Button x:ConnectionId='8' x:Name="动漫资讯" Grid.Row="1" Style="{StaticResource B3}" Content="·动漫资讯（动画，漫画，声优）" FontSize="20"                    BorderThickness="0" Padding="9.5,0"/>
-                <Button x:ConnectionId='9' x:Name="宅文化" Grid.Row="2" Style="{StaticResource B3}" Content="·宅文化（杂谈，周边，漫展，八卦）" FontSize="20"                   BorderThickness="0" Padding="9.5,0"/>
-                <Button x:ConnectionId='10' x:Name="动漫音乐" Grid.Row="3" Style="{StaticResource B3}" Content="·动漫音乐" FontSize="20"                    BorderThickness="0" Padding="9.5,0"/>
+                <Button x:ConnectionId='6' x:Name="图片"  Style="{StaticResource B3}" Content="·动漫图库（动漫壁纸，动漫美图，精彩写真，Cosplay）" FontSize="20"                  BorderThickness="0" Padding="9.5,0"/>
+                <Button x:ConnectionId='7' x:Name="动漫资讯" Grid.Row="1" Style="{StaticResource B3}" Content="·动漫资讯（动画，漫画，声优）" FontSize="20"                    BorderThickness="0" Padding="9.5,0"/>
+                <Button x:ConnectionId='8' x:Name="宅文化" Grid.Row="2" Style="{StaticResource B3}" Content="·宅文化（杂谈，周边，漫展，八卦）" FontSize="20"                   BorderThickness="0" Padding="9.5,0"/>
+                <Button x:ConnectionId='9' x:Name="动漫音乐" Grid.Row="3" Style="{StaticResource B3}" Content="·动漫音乐" FontSize="20"                    BorderThickness="0" Padding="9.5,0"/>
             </Grid>
         </Grid>
         <Grid x:Name="YJMS" Background="{StaticResource YJ }" IsHitTestVisible="False"  />

@@ -85,9 +85,6 @@
     <AppxPackagedFile Include="C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\DMZXPage.xbf">
       <PackagePath>DMZXPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\InfoPage.xbf">
-      <PackagePath>InfoPage.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jingjing\Documents\Visual Studio 2013\Projects\acgsky\acgsky\bin\ARM\Release\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

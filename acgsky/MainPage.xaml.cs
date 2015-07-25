@@ -61,8 +61,8 @@ namespace acgsky
             ListView3.ItemsSource = Items3;
             ListView4.ItemsSource = Items4;
             ListView5.ItemsSource = Items5;
-            ListView1.ItemsSource = Items1;
-            ListViewyy.ItemsSource = Items6;
+            //ListView1.ItemsSource = Items1;
+            //ListViewyy.ItemsSource = Items6;
             获取主页文本();
             DM7.Completed += WC2;
             DM8.Completed += WC3;
@@ -137,14 +137,14 @@ namespace acgsky
             {
                 if (Text.Length > 100)
                 {
-                    首页头条(Text.Substring(Text.IndexOf("<ul class=\"Sd_1\">"), Text.IndexOf("<ul class=\"Sd_4\">") - Text.IndexOf("<ul class=\"Sd_1\">")), Text.Substring(Text.IndexOf("<ul class=\"Sd_3\">"), Text.IndexOf("<ul class=\"Sd_4\">") - Text.IndexOf("<ul class=\"Sd_3\">")));
-                    首页次条(Text.Substring(Text.IndexOf("<!--三张图-->"), Text.IndexOf("<!--三张图 end-->") - Text.IndexOf("<!--三张图-->")));
-                    今日推荐(Text.Substring(Text.IndexOf("<ul class=\"Ptxt block\">"), Text.IndexOf("<div class=\"Home-Page\">") - Text.IndexOf("<ul class=\"Ptxt block\">")));
-                    动漫美图(Text.Substring(Text.IndexOf("<ul class=\"DMMT\">"), Text.IndexOf("<!--Mid_3 end-->") - Text.IndexOf("<ul class=\"DMMT\">")));
-                    Cosplay(Text.Substring(Text.IndexOf("<ul class=\"Pic_txt\">"), Text.IndexOf("<div class=\"Mid4 R\">") - Text.IndexOf("<ul class=\"Pic_txt\">")));
-                    写真(Text.Substring(Text.IndexOf("<div class=\"Mid4 R\">"), Text.IndexOf("<!--Mid_4 end-->") - Text.IndexOf("<div class=\"Mid4 R\">")));
-                    周边(Text.Substring(Text.IndexOf("<ul class=\"ZB\">"), Text.IndexOf("<ul class=\"YY\">") - Text.IndexOf("<ul class=\"ZB\">")));
-                    _动漫音乐(Text.Substring(Text.IndexOf("<ul class=\"YY\">"), Text.IndexOf("<ul class=\"RMBQ\">") - Text.IndexOf("<ul class=\"YY\">")));
+                    首页头条(Text.Substring(Text.IndexOf("<ul class=\"Bimg\">"), Text.IndexOf("<ul class=\"Simg\">") - Text.IndexOf("<ul class=\"Bimg\">")));
+                    首页次条(Text.Substring(Text.IndexOf("<div class=\"Mid1pic\">"), Text.IndexOf("</div><!--Mid1 end-->") - Text.IndexOf("<div class=\"Mid1pic\">")));
+                    今日推荐(Text.Substring(Text.IndexOf("<ul class=\"Ptxt block\">"), Text.IndexOf("<div class=\"Home-More\">") - Text.IndexOf("<ul class=\"Ptxt block\">")));
+                    动漫美图(Text.Substring(Text.IndexOf("<ul class=\"DMBZ\">\r\n"), Text.IndexOf("<!--Mid6_L end-->") - Text.IndexOf("<ul class=\"DMBZ\">\r\n")));
+                    Cosplay(Text.Substring(Text.IndexOf("<ul class=\"Cospaly\">"), Text.IndexOf("<!--Mid6_R end-->") - Text.IndexOf("<ul class=\"Cospaly\">")));
+                    //写真(Text.Substring(Text.IndexOf("<div class=\"Mid4 R\">"), Text.IndexOf("<!--Mid_4 end-->") - Text.IndexOf("<div class=\"Mid4 R\">")));
+                    //周边(Text.Substring(Text.IndexOf("<ul class=\"ZB\">"), Text.IndexOf("<ul class=\"YY\">") - Text.IndexOf("<ul class=\"ZB\">")));
+                    //_动漫音乐(Text.Substring(Text.IndexOf("<ul class=\"YY\">"), Text.IndexOf("<ul class=\"RMBQ\">") - Text.IndexOf("<ul class=\"YY\">")));
                     //拆分字符串交给对应的方法解析加载
                 }
             }
@@ -153,72 +153,85 @@ namespace acgsky
                 new MessageDialog("遇到致命错误,请联系作者" + e.Message, "错误提示").ShowAsync();
             }
         }
-        private void _动漫音乐(string html)
-        {
-            string s3 = "<li class=\"li1\"><a href=\"";
-            string e3 = "\" t";
-            MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-            string s4 = "blank\">";
-            string e4 = "</a></li>";
-            MatchCollection M4 = new Regex("(?<=(" + s4 + "))[.\\s\\S]*?(?=(" + e4 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-            Task.Factory.StartNew(async () =>
-            {
-                await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    Items6.Clear();
-                    for (int i = 0; i < M3.Count; i++)
-                    {
-                        Item2 item = new Item2();
-                        item.Link = M3[i].Value;
-                        item.First = M4[i].Value;
-                        Items6.Add(item);
-                    }
-                });
-            });
-        }
-        private void 首页头条(string html,string html2)
+        //private void _动漫音乐(string html)
+        //{
+        //    string s3 = "<li class=\"li1\"><a href=\"";
+        //    string e3 = "\" t";
+        //    MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+        //    string s4 = "blank\">";
+        //    string e4 = "</a></li>";
+        //    MatchCollection M4 = new Regex("(?<=(" + s4 + "))[.\\s\\S]*?(?=(" + e4 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+        //    Task.Factory.StartNew(async () =>
+        //    {
+        //        await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+        //        {
+        //            Items6.Clear();
+        //            for (int i = 0; i < M3.Count; i++)
+        //            {
+        //                Item2 item = new Item2();
+        //                item.Link = M3[i].Value;
+        //                item.First = M4[i].Value;
+        //                Items6.Add(item);
+        //            }
+        //        });
+        //    });
+        //}
+        private void 首页头条(string html)
         {
             string s = "<img src=\"";
-            string e = "\" width=";
+            string e = "\" data-src=\"http://";
             MatchCollection M= new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
 
             //string s2 = "blank\">";
             //string e2 = "</a></li>";
-            string s2 = "data-itemid=\"";
-            string e2 = "</a></li>";
-            MatchCollection M2 = new Regex("data-itemid=\"\\d+\">[.\\s\\S]*?(?=("+ e2 +"))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
-            string temp;
-            Collection<Match> contents = new Collection<Match>(); 
-            for(int i = 0;i < M2.Count;i++)
-            {
-                temp = M2[i].Value;
-                Match tempMatch = new Regex("(?<=(\">))[.\\s\\S]*?$", RegexOptions.Multiline | RegexOptions.Singleline).Match(temp);
-                contents.Add(tempMatch);
-            }
+            string s2 = "<div class=\"mask mk2\"><div class=\"txt\">";
+            string e2 = "</div></div>\r\n\t\t\t\t\t</a>";
+            MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            //string temp;
+            //Collection<Match> contents = new Collection<Match>(); 
+            //for(int i = 0;i < M2.Count;i++)
+            //{
+            //    temp = M2[i].Value;
+            //    Match tempMatch = new Regex("(?<=(\">))[.\\s\\S]*?$", RegexOptions.Multiline | RegexOptions.Singleline).Match(temp);
+            //    contents.Add(tempMatch);
+            //}
             string s3 = "<a href=\"";
             string e3 = "\" t";
-            MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
+            MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
 
             Task.Factory.StartNew(async () =>
             {
                 await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    SYTTB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
-                    //SYTTB0.Image = new BitmapImage(new Uri(M[0].Value));
-                    SYTTB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value))};
-                    SYTTB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value)) };
-                    SYTTB3.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[3].Value))};
-                    SYTTB4.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[4].Value)) };
-                    SYTTB0.Content = contents[0].Value;
-                    SYTTB1.Content = contents[1].Value;
-                    SYTTB2.Content = contents[2].Value;
-                    SYTTB3.Content = contents[3].Value;
-                    SYTTB4.Content = contents[4].Value;
-                    SYTTB0.Tag = M3[0].Value;
-                    SYTTB1.Tag = M3[1].Value;
-                    SYTTB2.Tag = M3[2].Value;
-                    SYTTB3.Tag = M3[3].Value;
-                    SYTTB4.Tag = M3[4].Value;
+                    Button[] SYTTBs = { SYTTB0, SYTTB1, SYTTB2, SYTTB3, SYTTB4 };
+                    for (int i = 0; i < SYTTBs.Length; i++)
+                    {
+                        //这一组M是提取的图片
+                        SYTTBs[i].Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[i].Value)) };
+                        //这一组content提取的是图片的标题
+                        SYTTBs[i].Content = M2[i].Value;
+                        //M3是图片的超链接
+                        SYTTBs[i].Tag = M3[i].Value;
+                    }
+                   // SYTTB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
+                   // //SYTTB0.Image = new BitmapImage(new Uri(M[0].Value));
+                   // //这一组M是提取的图片
+                   // SYTTB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value))};
+                   // SYTTB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value)) };
+                   // SYTTB3.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[3].Value))};
+                   // SYTTB4.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[4].Value)) };
+                   ////这一组content提取的是图片的标题
+                   // SYTTB0.Content = M2[0].Value;
+                   // SYTTB1.Content = M2[1].Value;
+                   // SYTTB2.Content = M2[2].Value;
+                   // SYTTB3.Content = M2[3].Value;
+                   // SYTTB4.Content = M2[4].Value;
+                   // //M3是图片的超链接
+                   // SYTTB0.Tag = M3[0].Value;
+                   // SYTTB1.Tag = M3[1].Value;
+                   // SYTTB2.Tag = M3[2].Value;
+                   // SYTTB3.Tag = M3[3].Value;
+                   // SYTTB4.Tag = M3[4].Value;
                 });
             });
 //            DispatcherTimer _timer = new DispatcherTimer();//定义一个定时器
@@ -247,199 +260,221 @@ namespace acgsky
             string e2 = "\"  width";
             MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
 
-            string s3 = "<a href=\"";
-            string e3 = "\" target";
+            string s3 = "<a target=\"_blank\" href=\"";
+            string e3 = "\" title=\"\">\n";
             MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
             Task.Factory.StartNew(async () =>
             {
                 await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    TTSVB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
-                    TTSVB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value)) };
-                    TTSVB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value)) };
-                    TTSVB0.Content = M2[0].Value;
-                    TTSVB1.Content = M2[1].Value;
-                    TTSVB2.Content = M2[2].Value;
-                    TTSVB0.Tag = M3[0].Value;
-                    TTSVB1.Tag = M3[1].Value;
-                    TTSVB2.Tag = M3[2].Value;
+                    Button[] TTSVBs = { TTSVB0, TTSVB1, TTSVB2, TTSVB3, TTSVB4, TTSVB5 };
+                    //Button[] TTSVBs = { TTSVB0, TTSVB1, TTSVB2,TTSVB3 };
+                    UIElementCollection TTSVBGrids = TTSVGrid.Children;
+                    for (int i = 0; i < TTSVBGrids.Count; i++)
+                    {
+                        TTSVBs[i].Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[i].Value)) };
+                        TTSVBs[i].Content = M2[i].Value;
+                        TTSVBs[i].Tag = M3[i].Value;
+                    }
+                    //TTSVB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
+                    //TTSVB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value)) };
+                    //TTSVB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value)) };
+                    //TTSVB0.Content = M2[0].Value;
+                    //TTSVB1.Content = M2[1].Value;
+                    //TTSVB2.Content = M2[2].Value;
+                    //TTSVB0.Tag = M3[0].Value;
+                    //TTSVB1.Tag = M3[1].Value;
+                    //TTSVB2.Tag = M3[2].Value;
                 });
             });
 
         }
-        private void 今日推荐(string html)
+        private void 今日推荐(string html)//要闻推荐模块
         {
+            //图片地址
             string s = "<img src=\"";
             string e = "\" alt=";
             MM = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
+            //标题地址
             string s2 = "alt=\"";
             string e2 = "\"  width";
             MM2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
+            //时间
             string s3 = "<div class=\"time\">";
             string e3 = "</div>";
             MM3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
+            //跳转链接
             string s4 = "<div class=\"img\"><a href=\"";
             string e4 = "\" target";
             MM4 = new Regex("(?<=(" + s4 + "))[.\\s\\S]*?(?=(" + e4 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
         }
         private void 动漫美图(string html)
         {
-            string s = "src=\"";
-            string e = "\">";
-            MatchCollection M = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
-            string s4 = "img src=\"";
-            string e4 = "\" alt";
-            MatchCollection M4 = new Regex("(?<=(" + s4 + "))[.\\s\\S]*?(?=(" + e4 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
-            string s2 = "<div class=\"txt\">";
-            string e2 = "</div>";
-            MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
-            string s3 = "href=\"";
-            string e3 = "\"";
-            MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            //大图片地址
+            string s = "<img alt=\"\" src=\"";
+            string e = "\" width=\"580\"";
+            MatchCollection BigImgMatch = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            //大图片标题
+            string BigImgTitleStartTag = "<div class=\"mk2\">";
+            string BigImgTitleEndTag = "</div>\r\n";
+            MatchCollection BigImgTitle = new Regex("(?<=(" + BigImgTitleStartTag + "))[.\\s\\S]*?(?=(" + BigImgTitleEndTag + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            //图片地址
+            string imgStartTag = "img src=\"";
+            string imgEndTag = "\" alt";
+            MatchCollection imgMatch = new Regex("(?<=(" + imgStartTag + "))[.\\s\\S]*?(?=(" + imgEndTag + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            //标题
+            string titleStartTag = "title=\"";
+            string titleEndTag = "\">\n";
+            MatchCollection titleMatch = new Regex("(?<=(" + titleStartTag + "))[.\\s\\S]*?(?=(" + titleEndTag + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            //跳转链接
+            string actionStartTag = "href=\"";
+            string actionEndTag = "\"";
+            MatchCollection actionMatch = new Regex("(?<=(" + actionStartTag + "))[.\\s\\S]*?(?=(" + actionEndTag + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
             Task.Factory.StartNew(async () =>
             {
                 await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    PictureB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
-                    PictureB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[0].Value)) };
-                    PictureB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[1].Value)) };
-                    PictureB3.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[2].Value)) };
-                    PictureB4.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[3].Value)) };
-                    PictureB5.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[4].Value)) };
-                    PictureB6.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[5].Value)) };
-                    PictureB0.Content = M2[0].Value;
-                    PictureB1.Content = M2[1].Value;
-                    PictureB2.Content = M2[2].Value;
-                    PictureB3.Content = M2[3].Value;
-                    PictureB4.Content = M2[4].Value;
-                    PictureB5.Content = M2[5].Value;
-                    PictureB6.Content = M2[6].Value;
-                    PictureB0.Tag = M3[0].Value;
-                    PictureB1.Tag = M3[1].Value;
-                    PictureB2.Tag = M3[2].Value;
-                    PictureB3.Tag = M3[3].Value;
-                    PictureB4.Tag = M3[4].Value;
-                    PictureB5.Tag = M3[5].Value;
-                    PictureB6.Tag = M3[6].Value;
+                    PictureB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(BigImgMatch[0].Value)) };
+                    PictureB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(imgMatch[0].Value)) };
+                    PictureB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(imgMatch[1].Value)) };
+                    PictureB3.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(imgMatch[2].Value)) };
+                    //PictureB4.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[3].Value)) };
+                    //PictureB5.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[4].Value)) };
+                    //PictureB6.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M4[5].Value)) };
+                    PictureB0.Content = BigImgTitle[0].Value;
+                    PictureB1.Content = titleMatch[0].Value;
+                    PictureB2.Content = titleMatch[1].Value;
+                    PictureB3.Content = titleMatch[2].Value;
+                    //PictureB4.Content = M2[4].Value;
+                    //PictureB5.Content = M2[5].Value;
+                    //PictureB6.Content = M2[6].Value;
+                    PictureB0.Tag = actionMatch[0].Value;
+                    PictureB1.Tag = actionMatch[1].Value;
+                    PictureB2.Tag = actionMatch[2].Value;
+                    PictureB3.Tag = actionMatch[3].Value;
+                    //PictureB4.Tag = M3[4].Value;
+                    //PictureB5.Tag = M3[5].Value;
+                    //PictureB6.Tag = M3[6].Value;
                 });
             });
 
         }
         private void Cosplay(string html)
         {
-            string s = " src=\"";
-            string e = "g\"";
-            MatchCollection M = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            string imgStartTag = " src=\"";
+            string imgEndTag = "\" alt=\"";
+            MatchCollection imgMatch = new Regex("(?<=(" + imgStartTag + "))[.\\s\\S]*?(?=(" + imgEndTag + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
 
-            string s2 = "<div class=\"txt\">";
-            string e2 = "</div>";
-            MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+            string titleStartTag = "title=\"";
+            string titleEndTag = "\"";
+            MatchCollection titleMatch = new Regex("(?<=(" + titleStartTag + "))[.\\s\\S]*?(?=(" + titleEndTag + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
 
-            string s3 = " href=\"";
-            string e3 = "l\"";
-            MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
-            Task.Factory.StartNew(async () =>
-            {
-                await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    CosplayB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value+"g")) };
-                    CosplayB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value + "g")) };
-                    CosplayB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value + "g")) };
-                    CosplayB0.Content = M2[0].Value;
-                    CosplayB1.Content = M2[1].Value;
-                    CosplayB2.Content = M2[2].Value;
-                    CosplayB0.Tag = M3[0].Value;
-                    CosplayB1.Tag = M3[1].Value;
-                    CosplayB2.Tag = M3[2].Value;
-                });
-            });
-        }
-        private void 写真(string html)
-        {
-            string s = "<img src=\"";
-            string e = "\" ";
-            MatchCollection M = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
-            string s2 = "<div class=\"txt\">";
-            string e2 = "</div>";
-            MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
-
-            string s3 = "<a href=\"";
-            string e3 = "\" t";
-            Regex r3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline);
-            MatchCollection M3 = r3.Matches(html);
+            string actionStartTag = " href=\"";
+            string actionEndTag = "\" title=\"";
+            MatchCollection actionMatch = new Regex("(?<=(" + actionStartTag + "))[.\\s\\S]*?(?=(" + actionEndTag + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
 
             Task.Factory.StartNew(async () =>
             {
                 await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    PortraitB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
-                    PortraitB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value)) };
-                    PortraitB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value)) };
-                    PortraitB0.Content = M2[0].Value;
-                    PortraitB1.Content = M2[1].Value;
-                    PortraitB2.Content = M2[2].Value;
-                    PortraitB0.Tag = M3[0].Value;
-                    PortraitB1.Tag = M3[1].Value;
-                    PortraitB2.Tag = M3[2].Value;
-                });
-            });
-        }
-        private void 周边(string html)
-        {
-            string html2 = html.Substring(20, html.LastIndexOf("</div></a></li>"));
-            string html3 = html.Substring(html.LastIndexOf("</div></a></li>") + 20, html.LastIndexOf("</ul>") - html.LastIndexOf("</div></a></li>") - 20);
-
-            string s = "<img src=\"";
-            string e = "\" ";
-            MatchCollection M = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
-
-
-            string s2 = "<div class=\"txt\">";
-            string e2 = "</div>";
-            MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
-
-
-            string s5 = "<a href=\"";
-            string e5 = "\" t";
-            MatchCollection M5 = new Regex("(?<=(" + s5 + "))[.\\s\\S]*?(?=(" + e5 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
-
-
-            string s3 = "<li class=\"li1\"><a href=\"";
-            string e3 = "\" t";
-            MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html3);
-            string s4 = "blank\">";
-            string e4 = "</a></li>";
-            MatchCollection M4 = new Regex("(?<=(" + s4 + "))[.\\s\\S]*?(?=(" + e4 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html3);
-            Task.Factory.StartNew(async () =>
-            {
-                await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    Products0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
-                    Products1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value)) };
-                    Products0.Content = M2[0].Value;
-                    Products1.Content = M2[1].Value;
-                    Products0.Tag = M5[0].Value;
-                    Products1.Tag = M5[1].Value;
-                    Items1.Clear();
-                    for (int i = 0; i < M3.Count; i++)
+                    Button[] CosplayBs = { CosplayB0, CosplayB1, CosplayB2, CosplayB3 };
+                    for (int i = 0; i < CosplayBs.Length; i++)
                     {
-                        Item2 item = new Item2();
-                        item.Link = M3[i].Value;
-                        item.First = M4[i].Value;
-                        Items1.Add(item);
+                        CosplayBs[i].Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(imgMatch[i].Value)) };
+                        CosplayBs[i].Content = titleMatch[i].Value;
+                        CosplayBs[i].Tag = actionMatch[i].Value;
                     }
+                    //CosplayB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(imgMatch[0].Value)) };
+                    //CosplayB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(imgMatch[1].Value)) };
+                    //CosplayB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(imgMatch[2].Value)) };
+                    //CosplayB0.Content = titleMatch[0].Value;
+                    //CosplayB1.Content = titleMatch[1].Value;
+                    //CosplayB2.Content = titleMatch[2].Value;
+                    //CosplayB0.Tag = actionMatch[0].Value;
+                    //CosplayB1.Tag = actionMatch[1].Value;
+                    //CosplayB2.Tag = actionMatch[2].Value;
                 });
             });
-
         }
+        //private void 写真(string html)
+        //{
+        //    string s = "<img src=\"";
+        //    string e = "\" ";
+        //    MatchCollection M = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+
+        //    string s2 = "<div class=\"txt\">";
+        //    string e2 = "</div>";
+        //    MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html);
+
+        //    string s3 = "<a href=\"";
+        //    string e3 = "\" t";
+        //    Regex r3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline);
+        //    MatchCollection M3 = r3.Matches(html);
+
+        //    Task.Factory.StartNew(async () =>
+        //    {
+        //        await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+        //        {
+        //            PortraitB0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
+        //            PortraitB1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value)) };
+        //            PortraitB2.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[2].Value)) };
+        //            PortraitB0.Content = M2[0].Value;
+        //            PortraitB1.Content = M2[1].Value;
+        //            PortraitB2.Content = M2[2].Value;
+        //            PortraitB0.Tag = M3[0].Value;
+        //            PortraitB1.Tag = M3[1].Value;
+        //            PortraitB2.Tag = M3[2].Value;
+        //        });
+        //    });
+        //}
+        //private void 周边(string html)
+        //{
+        //    string html2 = html.Substring(20, html.LastIndexOf("</div></a></li>"));
+        //    string html3 = html.Substring(html.LastIndexOf("</div></a></li>") + 20, html.LastIndexOf("</ul>") - html.LastIndexOf("</div></a></li>") - 20);
+
+        //    string s = "<img src=\"";
+        //    string e = "\" ";
+        //    MatchCollection M = new Regex("(?<=(" + s + "))[.\\s\\S]*?(?=(" + e + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
+
+
+        //    string s2 = "<div class=\"txt\">";
+        //    string e2 = "</div>";
+        //    MatchCollection M2 = new Regex("(?<=(" + s2 + "))[.\\s\\S]*?(?=(" + e2 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
+
+
+        //    string s5 = "<a href=\"";
+        //    string e5 = "\" t";
+        //    MatchCollection M5 = new Regex("(?<=(" + s5 + "))[.\\s\\S]*?(?=(" + e5 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html2);
+
+
+        //    string s3 = "<li class=\"li1\"><a href=\"";
+        //    string e3 = "\" t";
+        //    MatchCollection M3 = new Regex("(?<=(" + s3 + "))[.\\s\\S]*?(?=(" + e3 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html3);
+        //    string s4 = "blank\">";
+        //    string e4 = "</a></li>";
+        //    MatchCollection M4 = new Regex("(?<=(" + s4 + "))[.\\s\\S]*?(?=(" + e4 + "))", RegexOptions.Multiline | RegexOptions.Singleline).Matches(html3);
+        //    Task.Factory.StartNew(async () =>
+        //    {
+        //        await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+        //        {
+        //            Products0.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[0].Value)) };
+        //            Products1.Background = new ImageBrush() { ImageSource = new BitmapImage(new Uri(M[1].Value)) };
+        //            Products0.Content = M2[0].Value;
+        //            Products1.Content = M2[1].Value;
+        //            Products0.Tag = M5[0].Value;
+        //            Products1.Tag = M5[1].Value;
+        //            Items1.Clear();
+        //            for (int i = 0; i < M3.Count; i++)
+        //            {
+        //                Item2 item = new Item2();
+        //                item.Link = M3[i].Value;
+        //                item.First = M4[i].Value;
+        //                Items1.Add(item);
+        //            }
+        //        });
+        //    });
+
+        //}
 
 
 
@@ -666,17 +701,19 @@ namespace acgsky
         {
             SYTTB0.Content = SYTTB1.Content = SYTTB2.Content = SYTTB3.Content = SYTTB4.Content  = "载入中";
             TTSVB0.Content = TTSVB1.Content = TTSVB2.Content= "载入中";
-            PictureB0.Content = PictureB1.Content = PictureB2.Content = PictureB3.Content = PictureB4.Content = PictureB5.Content = PictureB6.Content  = "载入中";
+            //PictureB0.Content = PictureB1.Content = PictureB2.Content = PictureB3.Content = PictureB4.Content = PictureB5.Content = PictureB6.Content  = "载入中";
+            PictureB0.Content = PictureB1.Content = PictureB2.Content = PictureB3.Content  = "载入中";
             CosplayB0.Content = CosplayB1.Content = CosplayB2.Content = "载入中";
-            PortraitB0.Content = PortraitB1.Content = PortraitB2.Content = "载入中";
-            Products0.Content = Products1.Content = "载入中";
+            //PortraitB0.Content = PortraitB1.Content = PortraitB2.Content = "载入中";
+            //Products0.Content = Products1.Content = "载入中";
 
             SYTTB0.Background = SYTTB1.Background = SYTTB2.Background = SYTTB3.Background = SYTTB4.Background = null;
             TTSVB0.Background = TTSVB1.Background = TTSVB2.Background = null;
-            PictureB0.Background = PictureB1.Background = PictureB2.Background = PictureB3.Background = PictureB4.Background = PictureB5.Background = PictureB6.Background = null;
+            //PictureB0.Background = PictureB1.Background = PictureB2.Background = PictureB3.Background = PictureB4.Background = PictureB5.Background = PictureB6.Background = null;
+            PictureB0.Background = PictureB1.Background = PictureB2.Background = PictureB3.Background  = null;
             CosplayB0.Background = CosplayB1.Background = CosplayB2.Background = null;
-            PortraitB0.Background = PortraitB1.Background = PortraitB2.Background = null;
-            Products0.Background = Products1.Background = null;
+            //PortraitB0.Background = PortraitB1.Background = PortraitB2.Background = null;
+            //Products0.Background = Products1.Background = null;
 
             switch (ShouYeTuiJian.SelectedIndex)
             {
@@ -876,12 +913,12 @@ namespace acgsky
         private void CosplayG_SizeChanged(object sender, SizeChangedEventArgs e)
         {
             CosplayG.Height = e.NewSize.Width * 0.55 * 0.87;
-            写真G.Height = e.NewSize.Width * 0.55 * 0.87;
+            //写真G.Height = e.NewSize.Width * 0.55 * 0.87;
         }
 
         private void 周边G_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            周边G.Height = e.NewSize.Width * 0.50 * 1.31;
+            //周边G.Height = e.NewSize.Width * 0.50 * 1.31;
         }
 
         private void FlipView4_SizeChanged(object sender, SizeChangedEventArgs e)
